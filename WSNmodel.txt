@@ -1,0 +1,37 @@
+Underlay TC:
+First rule "inactivate":
+Three nodes are actively connected with each other building a triangle.
+The longest connection will be classified as inactive under certain circumstances.
+Second rule "activate":
+A unclassified connection between two nodes.
+It will be actived when there is no other way between these nodes with certain condition, e.g. not more than 3 connections.
+
+Underlay Environment:
+First scenario:
+Through environment changes we dont know the class of a connection.
+It will be classified as unclassified.
+Second scenario:
+Two nodes which werent in range at first got in range through a change in environment.
+A connection between these nodes will be created as unclassified.
+Third scenario:
+Two nodes which were in range at first got out of range through a change in environment.
+A connection between these nodes will be destroyed.
+
+Overlay TC:
+This isnt defined yet.
+
+Overlay Environment:
+First scenario:
+Need a connection between two nodes with certain condition which doesnt exist yet.
+Add this connection.
+Second scenario:
+No need for a specific connection any more.
+Remove this connection
+
+Constrains:
+All overlay connection must be realized in the underlay.
+Tradeoff: Low network degree to reduce energy costs./High connectivity to ensure robustness.(Minimum/Maximum number of connections)
+
+Constrains to discuss:
+Low diameter to ensure low distance.
+High bisection bandwith to ensure high throughput.

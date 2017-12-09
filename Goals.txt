@@ -1,0 +1,5 @@
+Tester: People with high knowledge about informatics
+Users: People without knowledge about informatics
+
+Goal1: Validation of algorithms of the DSL  (Task for testers)
+Goal2: Maintanance of a simulated WSN (Task for users)
