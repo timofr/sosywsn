@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<useme:UseMeSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:useme="http://nova-lincs.di.fct.unl.pt/useme">
+  <contextSpecification name="csSoSyWSN">
+    <contextModel cmName="cmSoSyWSN" domain="configurate a wireless sensor network" contextEnvironment="//@contextSpecification.0/@enviromentSpecification.0/@physicalEnvironment.0 //@contextSpecification.0/@enviromentSpecification.0/@socialEnvironment.0 //@contextSpecification.0/@enviromentSpecification.0/@technicalEnvironment.0" language="//@utilitySpecification.0/@DSL.0" workflow="//@contextSpecification.0/@workflowSpecification.0/@workflow.0">
+      <userHierarchy userProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0" uhDescription="uhSoSyWSN"/>
+    </contextModel>
+    <userProfileSpecification name="usSoSyWSN">
+      <userProfile name="DSL Stakeholder" subProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.1 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.2 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.4" userHierarchy="//@contextSpecification.0/@contextModel.0/@userHierarchy" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.0" classifier="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.0"/>
+      <userProfile name="Language Engineer" priority="Low" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0" subProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.5"/>
+      <userProfile name="Domain Expert" priority="Medium" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0" subProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.6"/>
+      <userProfile name="End User" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0" subProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.5 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.6" classifier="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.1"/>
+      <userProfile name="Expert Evaluator" priority="Low" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0"/>
+      <userProfile name="Student" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.1"/>
+      <userProfile name="Expert TRY TO FIND A BETTER NAME" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.2"/>
+      <profileTemplate name="bdStakeholder" category="Background Demographics" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.0 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.2"/>
+      <profileTemplate name="bdEndUser" category="Background Demographics" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.1 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.2"/>
+      <profileTemplate name="bkEndUser" category="Background Knowledge" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.3 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.4 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.5 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.6"/>
+      <profileTemplate name="bdStudent" category="Background Demographics"/>
+      <profileTemplate name="bkStudent" category="Background Knowledge" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.11"/>
+      <profileTemplate name="bdExpert" category="Background Demographics" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.10 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.9"/>
+      <profileTemplate/>
+      <logicalExpression name="stakeholderType" classifierName="stakeholderType" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.0">
+        <expression>LanguageEngineer</expression>
+        <expression>DomainExpert</expression>
+        <expression>EndUser</expression>
+      </logicalExpression>
+      <logicalExpression name="participantType" classifierName="participantType" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.1">
+        <expression>Student</expression>
+        <expression>Expert</expression>
+      </logicalExpression>
+      <logicalExpression name="language" classifierName="language" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.0 //@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.1">
+        <expression>English</expression>
+        <expression>German</expression>
+      </logicalExpression>
+      <logicalExpression name="graph transformation system" classifierName="graph transformation system" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.2">
+        <expression>none</expression>
+        <expression>some</expression>
+        <expression>experienced</expression>
+        <expression>actively working with it</expression>
+      </logicalExpression>
+      <logicalExpression name="bigraphical reactive systems" classifierName="bigraphical reactive systems" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.2">
+        <expression>none</expression>
+        <expression>some</expression>
+        <expression>experienced</expression>
+        <expression>actively working with it</expression>
+      </logicalExpression>
+      <logicalExpression name="wireless sensor network" classifierName="wireless sensor network" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.2">
+        <expression>none</expression>
+        <expression>some</expression>
+        <expression>experienced</expression>
+        <expression>actively working with it</expression>
+      </logicalExpression>
+      <logicalExpression name="visual language" classifierName="visual language" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.2">
+        <expression>none</expression>
+        <expression>some</expression>
+        <expression>experienced</expression>
+        <expression>actively working with it</expression>
+      </logicalExpression>
+      <logicalExpression name="course of study" classifierName="course of study">
+        <expression>String</expression>
+      </logicalExpression>
+      <logicalExpression name="semester" classifierName="semester">
+        <expression>int</expression>
+      </logicalExpression>
+      <logicalExpression name="job" classifierName="job" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.5">
+        <expression>String</expression>
+      </logicalExpression>
+      <logicalExpression name="work area" classifierName="work area" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.5">
+        <expression>String</expression>
+      </logicalExpression>
+      <logicalExpression name="projects" classifierName="projects" profileTemplate="//@contextSpecification.0/@userProfileSpecification.0/@profileTemplate.4"/>
+    </userProfileSpecification>
+    <enviromentSpecification name="esSoSyWSN">
+      <technicalEnvironment name="teSoSyWSN" contextModel="//@contextSpecification.0/@contextModel.0" ceElement="//@contextSpecification.0/@enviromentSpecification.0/@enviromentalVariable.1"/>
+      <physicalEnvironment name="peSoSyWSN" contextModel="//@contextSpecification.0/@contextModel.0"/>
+      <socialEnvironment name="seSoSyWSN" contextModel="//@contextSpecification.0/@contextModel.0" ceElement="//@contextSpecification.0/@enviromentSpecification.0/@enviromentalVariable.0"/>
+      <enviromentalVariable name="University" mandatory="true" contextEnviroment="//@contextSpecification.0/@enviromentSpecification.0/@socialEnvironment.0">
+        <type>TU Darmstadt</type>
+        <type>None</type>
+        <composedElement name="TU Darmstadt"/>
+        <composedElement name="None"/>
+      </enviromentalVariable>
+      <enviromentalVariable name="Software" mandatory="true" contextEnviroment="//@contextSpecification.0/@enviromentSpecification.0/@technicalEnvironment.0">
+        <type>Henshin</type>
+        <type>eMoflon</type>
+        <composedElement name="Henshin"/>
+        <composedElement name="eMoflon"/>
+      </enviromentalVariable>
+      <enviromentalVariable name="Wireless Sensor Network" mandatory="true" contextEnviroment="//@contextSpecification.0/@enviromentSpecification.0/@physicalEnvironment.0"/>
+    </enviromentSpecification>
+    <workflowSpecification name="wsSoSyWSN">
+      <workflow name="Configure a wireless sensor network" actor="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3" contextElement="//@contextSpecification.0/@enviromentSpecification.0/@enviromentalVariable.2" contextModel="//@contextSpecification.0/@contextModel.0"/>
+    </workflowSpecification>
+  </contextSpecification>
+  <goalSpecification/>
+  <evaluationSpecification/>
+  <interactionSpecification/>
+  <surveySpecification/>
+  <reportSpecification/>
+  <utilitySpecification>
+    <DSL dslName="SoSyWSN" contextModel="//@contextSpecification.0/@contextModel.0"/>
+  </utilitySpecification>
+</useme:UseMeSpecification>
