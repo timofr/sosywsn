@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="WirelessSensorNetwork">
+  <eClassifiers xsi:type="ecore:EClass" name="Node">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="link" upperBound="-1" eType="#//Link"
+        eOpposite="#//Link/node"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Link">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="node" lowerBound="2" upperBound="2"
+        eType="#//Node" eOpposite="#//Node/link"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WirelessSensorNetwork">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="node" upperBound="-1" eType="#//Node"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="underlaynetwork" eType="#//UnderlayNetwork"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="overlaynetwork" eType="#//OverlayNetwork"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="LinkClassification">
+    <eLiterals name="ACTIVE" literal="ACTIVE"/>
+    <eLiterals name="INACTIVE" value="1"/>
+    <eLiterals name="UNCLASSIFIED" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UnderlayLink" eSuperTypes="#//Link">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="classification" eType="#//LinkClassification"
+        defaultValueLiteral="UNCLASSIFIED"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OverlayLink" eSuperTypes="#//Link"/>
+  <eClassifiers xsi:type="ecore:EClass" name="OverlayNetwork">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="overlaylink" upperBound="-1"
+        eType="#//OverlayLink" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UnderlayNetwork">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="underlaylink" upperBound="-1"
+        eType="#//UnderlayLink" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>
