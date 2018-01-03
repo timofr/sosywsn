@@ -92,12 +92,19 @@
       <workflow name="Configure a wireless sensor network" actor="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3" contextElement="//@contextSpecification.0/@enviromentSpecification.0/@enviromentalVariable.2" contextModel="//@contextSpecification.0/@contextModel.0"/>
     </workflowSpecification>
   </contextSpecification>
-  <goalSpecification/>
+  <goalSpecification name="gsSoSyWSN">
+    <method/>
+    <goalModel name="" language="//@utilitySpecification.0/@DSL.0">
+      <usabilityGoal name="Topology Control Verification" question="Is the topology "/>
+      <usabilityGoal question="Is Quality in Use of WSN achived?"/>
+    </goalModel>
+  </goalSpecification>
   <evaluationSpecification/>
   <interactionSpecification/>
   <surveySpecification/>
   <reportSpecification/>
   <utilitySpecification>
     <DSL dslName="SoSyWSN" contextModel="//@contextSpecification.0/@contextModel.0"/>
+    <functionalGoal/>
   </utilitySpecification>
 </useme:UseMeSpecification>

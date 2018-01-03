@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:useme.contextmodeling="http://nova-lincs.di.fct.unl.pt/useme.contextmodeling" xmlns:useme.utility="http://nova-lincs.di.fct.unl.pt/useme.utility" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style http://nova-lincs.di.fct.unl.pt/useme.contextmodeling http://nova-lincs.di.fct.unl.pt/useme#//ContextModeling http://nova-lincs.di.fct.unl.pt/useme.utility http://nova-lincs.di.fct.unl.pt/useme#//Utility">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:useme.contextmodeling="http://nova-lincs.di.fct.unl.pt/useme.contextmodeling" xmlns:useme.goalmodeling="http://nova-lincs.di.fct.unl.pt/useme.goalmodeling" xmlns:useme.utility="http://nova-lincs.di.fct.unl.pt/useme.utility" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style http://nova-lincs.di.fct.unl.pt/useme.contextmodeling http://nova-lincs.di.fct.unl.pt/useme#//ContextModeling http://nova-lincs.di.fct.unl.pt/useme.goalmodeling http://nova-lincs.di.fct.unl.pt/useme#//GoalModeling http://nova-lincs.di.fct.unl.pt/useme.utility http://nova-lincs.di.fct.unl.pt/useme#//Utility">
   <viewpoint:DAnalysis xmi:id="_zSDjcM1NEeeBrM1zRt-iIA" selectedViews="_9nBzMM1NEeeBrM1zRt-iIA _9nJvAM1NEeeBrM1zRt-iIA _9nK9IM1NEeeBrM1zRt-iIA _9nSR4M1NEeeBrM1zRt-iIA" version="12.0.0.201704271200">
     <semanticResources>SoftwareSysteme.useme</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_9nBzMM1NEeeBrM1zRt-iIA">
@@ -25,6 +25,10 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_9nSR4M1NEeeBrM1zRt-iIA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_R2_KUOsnEeejUbe_gD0PjQ" name="UsabilityGoalModel" repPath="#_R28uEOsnEeejUbe_gD0PjQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']"/>
+        <target xmi:type="useme.goalmodeling:GoalModel" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <diagram:DSemanticDiagram xmi:id="_RoM7IM1REeeIK9uawUICkg" name="EnvironmentContext">
@@ -906,5 +910,115 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_UDX9Fs1REeeIK9uawUICkg"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='contextModeling']/@ownedRepresentations[name='UserHierarchy']/@defaultLayer"/>
     <target xmi:type="useme.contextmodeling:ContextModel" href="SoftwareSysteme.useme#//@contextSpecification.0/@contextModel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_R28uEOsnEeejUbe_gD0PjQ" name="UsabilityGoalModel">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_R28uEesnEeejUbe_gD0PjQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_R28uEusnEeejUbe_gD0PjQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_R3ZaAOsnEeejUbe_gD0PjQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_R3ZaAesnEeejUbe_gD0PjQ" type="Sirius" element="_R28uEOsnEeejUbe_gD0PjQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_R3bPMOsnEeejUbe_gD0PjQ" type="2003" element="_R28uFOsnEeejUbe_gD0PjQ">
+          <children xmi:type="notation:Node" xmi:id="_R3fgoOsnEeejUbe_gD0PjQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_R3fgoesnEeejUbe_gD0PjQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_R3gHsOsnEeejUbe_gD0PjQ" type="3010" element="_R28uFusnEeejUbe_gD0PjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_R3gHsesnEeejUbe_gD0PjQ" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_R3gHsusnEeejUbe_gD0PjQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_R3guwOsnEeejUbe_gD0PjQ" type="3010" element="_R28uGOsnEeejUbe_gD0PjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_R3guwesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_R3guwusnEeejUbe_gD0PjQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_R3fgousnEeejUbe_gD0PjQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_R3fgo-snEeejUbe_gD0PjQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_R3bPMesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R3bPMusnEeejUbe_gD0PjQ" x="620" y="198"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Y86EIOsnEeejUbe_gD0PjQ" type="2003" element="_Y83A0OsnEeejUbe_gD0PjQ">
+          <children xmi:type="notation:Node" xmi:id="_Y86EI-snEeejUbe_gD0PjQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Y86EJOsnEeejUbe_gD0PjQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Y86EJ-snEeejUbe_gD0PjQ" type="3010" element="_Y83n4OsnEeejUbe_gD0PjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Y86EKOsnEeejUbe_gD0PjQ" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Y86EKesnEeejUbe_gD0PjQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Y86rMOsnEeejUbe_gD0PjQ" type="3010" element="_Y83n4usnEeejUbe_gD0PjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Y86rMesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Y86rMusnEeejUbe_gD0PjQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Y86EJesnEeejUbe_gD0PjQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Y86EJusnEeejUbe_gD0PjQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Y86EIesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y86EIusnEeejUbe_gD0PjQ" x="290" y="198"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_R3ZaAusnEeejUbe_gD0PjQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_R28uFOsnEeejUbe_gD0PjQ" name="Topology Control Verification">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_R28uFesnEeejUbe_gD0PjQ" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_R28uFusnEeejUbe_gD0PjQ" name="Q: Is the topology ">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_R28uF-snEeejUbe_gD0PjQ" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_R28uGOsnEeejUbe_gD0PjQ" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_R28uGesnEeejUbe_gD0PjQ" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Y83A0OsnEeejUbe_gD0PjQ" name="Quality in Use">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_Y83A0esnEeejUbe_gD0PjQ" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Y83n4OsnEeejUbe_gD0PjQ" name="Q: Is Quality in Use of Visualino achived?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Y83n4esnEeejUbe_gD0PjQ" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Y83n4usnEeejUbe_gD0PjQ" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Y84O8OsnEeejUbe_gD0PjQ" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_R28uGusnEeejUbe_gD0PjQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer"/>
+    <target xmi:type="useme.goalmodeling:GoalModel" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
