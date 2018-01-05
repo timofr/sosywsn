@@ -4,25 +4,29 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:WirelessSensorNetwork="www.wirelesssensornetwork.com"
-    xsi:schemaLocation="www.wirelesssensornetwork.com ../wsn.ecore">
+    xsi:schemaLocation="www.wirelesssensornetwork.com ../model/wsn.ecore">
   <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.1"
       id="1"/>
-  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2"
+  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2 //@underlaynetwork/@underlaylink.3"
       id="2"/>
   <node link="//@underlaynetwork/@underlaylink.1 //@underlaynetwork/@underlaylink.2"
       id="3"/>
+  <node link="//@underlaynetwork/@underlaylink.3"
+      id="4"/>
   <underlaynetwork>
     <underlaylink
         node="//@node.0 //@node.1"
         id="12"/>
     <underlaylink
         node="//@node.0 //@node.2"
-        id="13"
-        classification="1"/>
+        id="13"/>
     <underlaylink
         node="//@node.1 //@node.2"
         id="23"
         classification="2"/>
+    <underlaylink
+        node="//@node.1 //@node.3"
+        id="24"/>
   </underlaynetwork>
   <overlaynetwork/>
 </WirelessSensorNetwork:WirelessSensorNetwork>

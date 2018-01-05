@@ -165,7 +165,15 @@
     <mappings xmi:id="_aiEXAe2LEeeYnbaygk-hsg" origin="_nR1qsO2KEeeYnbaygk-hsg" image="_aiEXAO2LEeeYnbaygk-hsg"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_r-E64O2LEeeYnbaygk-hsg" name="addNode">
-    <parameters xmi:id="_yEMkkO2LEeeYnbaygk-hsg" name="id" kind="IN"/>
+    <parameters xmi:id="_yEMkkO2LEeeYnbaygk-hsg" name="id" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_1xkNQPG0EeebWNjB_o922w" name="x" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <parameters xmi:id="_1xkNQfG0EeebWNjB_o922w" name="y" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
     <lhs xmi:id="_r-GJAO2LEeeYnbaygk-hsg" name="Lhs">
       <nodes xmi:id="_vzE2gO2LEeeYnbaygk-hsg">
         <type href="wsn.ecore#//WirelessSensorNetwork"/>
@@ -179,6 +187,12 @@
         <type href="wsn.ecore#//Node"/>
         <attributes xmi:id="_YHShMO2MEeeYnbaygk-hsg" value="id">
           <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_2YBJQPG0EeebWNjB_o922w" value="x">
+          <type href="wsn.ecore#//Node/x"/>
+        </attributes>
+        <attributes xmi:id="_2fK6IPG0EeebWNjB_o922w" value="y">
+          <type href="wsn.ecore#//Node/y"/>
         </attributes>
       </nodes>
       <edges xmi:id="_ZB69cO2MEeeYnbaygk-hsg" source="_vzE2ge2LEeeYnbaygk-hsg" target="_wH9hYO2LEeeYnbaygk-hsg">
@@ -586,13 +600,13 @@
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
     <lhs xmi:id="_yQ2VoPFeEeembL5FuVkoNw" name="Lhs">
-      <nodes xmi:id="_87f6cPFeEeembL5FuVkoNw" incoming="_KXm6QPFfEeembL5FuVkoNw">
+      <nodes xmi:id="_87f6cPFeEeembL5FuVkoNw" incoming="_LzUCoPG0EeebWNjB_o922w">
         <type href="wsn.ecore#//Node"/>
         <attributes xmi:id="_PJdfsPFfEeembL5FuVkoNw" value="id">
           <type href="wsn.ecore#//Node/id"/>
         </attributes>
       </nodes>
-      <nodes xmi:id="_9xOokPFeEeembL5FuVkoNw" outgoing="_KXm6QPFfEeembL5FuVkoNw _KmZkMPFfEeembL5FuVkoNw _TCUyMPFgEeembL5FuVkoNw _grjoAPFgEeembL5FuVkoNw">
+      <nodes xmi:id="_9xOokPFeEeembL5FuVkoNw" outgoing="_KmZkMPFfEeembL5FuVkoNw _TCUyMPFgEeembL5FuVkoNw _grjoAPFgEeembL5FuVkoNw _LzUCoPG0EeebWNjB_o922w">
         <type href="wsn.ecore#//WirelessSensorNetwork"/>
       </nodes>
       <nodes xmi:id="_GvY2YPFfEeembL5FuVkoNw" incoming="_KmZkMPFfEeembL5FuVkoNw">
@@ -604,9 +618,6 @@
       <nodes xmi:id="_btt1APFgEeembL5FuVkoNw" incoming="_grjoAPFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//OverlayNetwork"/>
       </nodes>
-      <edges xmi:id="_KXm6QPFfEeembL5FuVkoNw" source="_9xOokPFeEeembL5FuVkoNw" target="_87f6cPFeEeembL5FuVkoNw">
-        <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
-      </edges>
       <edges xmi:id="_KmZkMPFfEeembL5FuVkoNw" source="_9xOokPFeEeembL5FuVkoNw" target="_GvY2YPFfEeembL5FuVkoNw">
         <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
       </edges>
@@ -615,6 +626,9 @@
       </edges>
       <edges xmi:id="_grjoAPFgEeembL5FuVkoNw" source="_9xOokPFeEeembL5FuVkoNw" target="_btt1APFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//WirelessSensorNetwork/overlaynetwork"/>
+      </edges>
+      <edges xmi:id="_LzUCoPG0EeebWNjB_o922w" source="_9xOokPFeEeembL5FuVkoNw" target="_87f6cPFeEeembL5FuVkoNw">
+        <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
       </edges>
     </lhs>
     <rhs xmi:id="_yQ2VofFeEeembL5FuVkoNw" name="Rhs">
@@ -649,10 +663,10 @@
         <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
       </parameters>
       <lhs xmi:id="_FtAMUPFfEeembL5FuVkoNw" name="Lhs">
-        <nodes xmi:id="_FtAMUvFfEeembL5FuVkoNw" incoming="_Jm1koPFfEeembL5FuVkoNw _KXm6QfFfEeembL5FuVkoNw _k2CrcPFgEeembL5FuVkoNw" outgoing="_pRA3YPFfEeembL5FuVkoNw _kltwcPFgEeembL5FuVkoNw">
+        <nodes xmi:id="_FtAMUvFfEeembL5FuVkoNw" incoming="_Jm1koPFfEeembL5FuVkoNw _k2CrcPFgEeembL5FuVkoNw _LzV30PG0EeebWNjB_o922w" outgoing="_pRA3YPFfEeembL5FuVkoNw _kltwcPFgEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node"/>
         </nodes>
-        <nodes xmi:id="_FtAzYvFfEeembL5FuVkoNw" outgoing="_KXm6QfFfEeembL5FuVkoNw _pRBecvFfEeembL5FuVkoNw _TCUyM_FgEeembL5FuVkoNw _grjoA_FgEeembL5FuVkoNw">
+        <nodes xmi:id="_FtAzYvFfEeembL5FuVkoNw" outgoing="_pRBecvFfEeembL5FuVkoNw _TCUyM_FgEeembL5FuVkoNw _grjoA_FgEeembL5FuVkoNw _LzV30PG0EeebWNjB_o922w">
           <type href="wsn.ecore#//WirelessSensorNetwork"/>
         </nodes>
         <nodes xmi:id="_mWQ9gPFfEeembL5FuVkoNw" incoming="_pRA3YPFfEeembL5FuVkoNw _p2ZcYPFfEeembL5FuVkoNw _TWsfsPFgEeembL5FuVkoNw" outgoing="_JCAZQPFfEeembL5FuVkoNw _Jm1koPFfEeembL5FuVkoNw">
@@ -672,9 +686,6 @@
         </nodes>
         <edges xmi:id="_Jm1koPFfEeembL5FuVkoNw" source="_mWQ9gPFfEeembL5FuVkoNw" target="_FtAMUvFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Link/node"/>
-        </edges>
-        <edges xmi:id="_KXm6QfFfEeembL5FuVkoNw" source="_FtAzYvFfEeembL5FuVkoNw" target="_FtAMUvFfEeembL5FuVkoNw">
-          <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
         </edges>
         <edges xmi:id="_pRBecvFfEeembL5FuVkoNw" source="_FtAzYvFfEeembL5FuVkoNw" target="_pRBecPFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
@@ -711,6 +722,9 @@
         </edges>
         <edges xmi:id="_lr-08PFgEeembL5FuVkoNw" source="_pRBecPFfEeembL5FuVkoNw" target="_a57noPFgEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node/link"/>
+        </edges>
+        <edges xmi:id="_LzV30PG0EeebWNjB_o922w" source="_FtAzYvFfEeembL5FuVkoNw" target="_FtAMUvFfEeembL5FuVkoNw">
+          <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
         </edges>
       </lhs>
       <rhs xmi:id="_FtAMUfFfEeembL5FuVkoNw" name="Rhs">
@@ -750,5 +764,153 @@
       <multiMappings xmi:id="_btt1BPFgEeembL5FuVkoNw" origin="_btt1AfFgEeembL5FuVkoNw" image="_btt1A_FgEeembL5FuVkoNw"/>
       <multiMappings xmi:id="_btt1BvFgEeembL5FuVkoNw" origin="_btt1APFgEeembL5FuVkoNw" image="_btt1BfFgEeembL5FuVkoNw"/>
     </multiRules>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_xnQa4PGyEeebWNjB_o922w" name="createVirtualEdge">
+    <parameters xmi:id="_BqkGcPGzEeebWNjB_o922w" name="id" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <lhs xmi:id="_xnaL4PGyEeebWNjB_o922w" name="Lhs">
+      <nodes xmi:id="_4GaPoPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+      </nodes>
+      <nodes xmi:id="_5yk2gPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_5jtUEPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_xnaL4fGyEeebWNjB_o922w" name="Rhs">
+      <nodes xmi:id="_4Ga2sPGyEeebWNjB_o922w" outgoing="__YgkQPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+      </nodes>
+      <nodes xmi:id="_44i3MPGyEeebWNjB_o922w" incoming="_-GWY0PGyEeebWNjB_o922w _-vA7UPGyEeebWNjB_o922w __YgkQPGyEeebWNjB_o922w" outgoing="_-UJkQPGyEeebWNjB_o922w _-kkl4PGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayLink"/>
+        <attributes xmi:id="_C9JvsPGzEeebWNjB_o922w" value="id">
+          <type href="wsn.ecore#//Link/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_60Q9APGyEeebWNjB_o922w" incoming="_-kkl4PGyEeebWNjB_o922w" outgoing="_-vA7UPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_7mJF4PGyEeebWNjB_o922w" incoming="_-UJkQPGyEeebWNjB_o922w" outgoing="_-GWY0PGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <edges xmi:id="_-GWY0PGyEeebWNjB_o922w" source="_7mJF4PGyEeebWNjB_o922w" target="_44i3MPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_-UJkQPGyEeebWNjB_o922w" source="_44i3MPGyEeebWNjB_o922w" target="_7mJF4PGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_-kkl4PGyEeebWNjB_o922w" source="_44i3MPGyEeebWNjB_o922w" target="_60Q9APGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_-vA7UPGyEeebWNjB_o922w" source="_60Q9APGyEeebWNjB_o922w" target="_44i3MPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="__YgkQPGyEeebWNjB_o922w" source="_4Ga2sPGyEeebWNjB_o922w" target="_44i3MPGyEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayNetwork/overlaylink"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_4Ga2sfGyEeebWNjB_o922w" origin="_4GaPoPGyEeebWNjB_o922w" image="_4Ga2sPGyEeebWNjB_o922w"/>
+    <mappings xmi:id="_60Q9AfGyEeebWNjB_o922w" origin="_5yk2gPGyEeebWNjB_o922w" image="_60Q9APGyEeebWNjB_o922w"/>
+    <mappings xmi:id="_7mJF4fGyEeebWNjB_o922w" origin="_5jtUEPGyEeebWNjB_o922w" image="_7mJF4PGyEeebWNjB_o922w"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_GDxiYPGzEeebWNjB_o922w" name="deleteVirtualEdge">
+    <parameters xmi:id="_IEbLgPGzEeebWNjB_o922w" name="id" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <lhs xmi:id="_GDzXkPGzEeebWNjB_o922w" name="Lhs">
+      <nodes xmi:id="_PFD8sPGzEeebWNjB_o922w" outgoing="_SsO3sPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+      </nodes>
+      <nodes xmi:id="_PfGNUPGzEeebWNjB_o922w" incoming="_RPbigPGzEeebWNjB_o922w _SWi7kPGzEeebWNjB_o922w _SsO3sPGzEeebWNjB_o922w" outgoing="_RctJgPGzEeebWNjB_o922w _Rq1FEPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayLink"/>
+        <attributes xmi:id="_XbpNIPGzEeebWNjB_o922w" value="id">
+          <type href="wsn.ecore#//Link/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_P1q6QPGzEeebWNjB_o922w" incoming="_Rq1FEPGzEeebWNjB_o922w" outgoing="_SWi7kPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_QBl2YPGzEeebWNjB_o922w" incoming="_RctJgPGzEeebWNjB_o922w" outgoing="_RPbigPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <edges xmi:id="_RPbigPGzEeebWNjB_o922w" source="_QBl2YPGzEeebWNjB_o922w" target="_PfGNUPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_RctJgPGzEeebWNjB_o922w" source="_PfGNUPGzEeebWNjB_o922w" target="_QBl2YPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_Rq1FEPGzEeebWNjB_o922w" source="_PfGNUPGzEeebWNjB_o922w" target="_P1q6QPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_SWi7kPGzEeebWNjB_o922w" source="_P1q6QPGzEeebWNjB_o922w" target="_PfGNUPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_SsO3sPGzEeebWNjB_o922w" source="_PFD8sPGzEeebWNjB_o922w" target="_PfGNUPGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayNetwork/overlaylink"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_GDzXkfGzEeebWNjB_o922w" name="Rhs">
+      <nodes xmi:id="_PFD8sfGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+      </nodes>
+      <nodes xmi:id="_P1q6QfGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_QBl2YfGzEeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_PFD8svGzEeebWNjB_o922w" origin="_PFD8sPGzEeebWNjB_o922w" image="_PFD8sfGzEeebWNjB_o922w"/>
+    <mappings xmi:id="_P1q6QvGzEeebWNjB_o922w" origin="_P1q6QPGzEeebWNjB_o922w" image="_P1q6QfGzEeebWNjB_o922w"/>
+    <mappings xmi:id="_QBl2YvGzEeebWNjB_o922w" origin="_QBl2YPGzEeebWNjB_o922w" image="_QBl2YfGzEeebWNjB_o922w"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_SGWG8PG0EeebWNjB_o922w" name="changePosition">
+    <parameters xmi:id="_cT45APG0EeebWNjB_o922w" name="id" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_cT45AfG0EeebWNjB_o922w" name="dx" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <parameters xmi:id="_cT45AvG0EeebWNjB_o922w" name="dy" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <parameters xmi:id="_qLlooPG0EeebWNjB_o922w" name="oldX" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <parameters xmi:id="_qLloofG0EeebWNjB_o922w" name="oldY" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </parameters>
+    <lhs xmi:id="_SGX8IPG0EeebWNjB_o922w" name="Lhs">
+      <nodes xmi:id="_d508EPG0EeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_fAqBQPG0EeebWNjB_o922w" value="id">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_fVwukPG0EeebWNjB_o922w" value="oldX">
+          <type href="wsn.ecore#//Node/x"/>
+        </attributes>
+        <attributes xmi:id="_ffWIYPG0EeebWNjB_o922w" value="oldY">
+          <type href="wsn.ecore#//Node/y"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_SGX8IfG0EeebWNjB_o922w" name="Rhs">
+      <nodes xmi:id="_d508EfG0EeebWNjB_o922w">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_fAqoUPG0EeebWNjB_o922w" value="id">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_fVxVoPG0EeebWNjB_o922w" value="oldX+dx">
+          <type href="wsn.ecore#//Node/x"/>
+        </attributes>
+        <attributes xmi:id="_ffWIYfG0EeebWNjB_o922w" value="oldY+dy">
+          <type href="wsn.ecore#//Node/y"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_d508EvG0EeebWNjB_o922w" origin="_d508EPG0EeebWNjB_o922w" image="_d508EfG0EeebWNjB_o922w"/>
   </units>
 </henshin:Module>
