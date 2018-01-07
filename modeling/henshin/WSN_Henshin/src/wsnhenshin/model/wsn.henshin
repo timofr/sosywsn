@@ -913,4 +913,205 @@
     </rhs>
     <mappings xmi:id="_d508EvG0EeebWNjB_o922w" origin="_d508EPG0EeebWNjB_o922w" image="_d508EfG0EeebWNjB_o922w"/>
   </units>
+  <units xsi:type="henshin:SequentialUnit" xmi:id="__czmUPPfEeeEtvVmvLmJjg" name="searchAlgorithm" subUnits="_uh22MPPhEeeEtvVmvLmJjg _kcesMPPiEeeEtvVmvLmJjg _2XLFQPPkEeeEtvVmvLmJjg">
+    <parameters xmi:id="_H2Q5sPPiEeeEtvVmvLmJjg" name="startId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_bX93YPPlEeeEtvVmvLmJjg" name="endId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameterMappings xmi:id="_H1MJYPPnEeeEtvVmvLmJjg" source="_bX93YPPlEeeEtvVmvLmJjg" target="_5ZY5EPPkEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_H1MJYfPnEeeEtvVmvLmJjg" source="_5ZY5EPPkEeeEtvVmvLmJjg" target="_bX93YPPlEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_lSJWoPPnEeeEtvVmvLmJjg" source="_H2Q5sPPiEeeEtvVmvLmJjg" target="_74WgwPPiEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_lSJWofPnEeeEtvVmvLmJjg" source="_74WgwPPiEeeEtvVmvLmJjg" target="_H2Q5sPPiEeeEtvVmvLmJjg"/>
+  </units>
+  <units xsi:type="henshin:IteratedUnit" xmi:id="_EdRPgPPgEeeEtvVmvLmJjg" subUnit="_UOxN8O2AEeeYnbaygk-hsg" iterations="1"/>
+  <units xsi:type="henshin:LoopUnit" xmi:id="_FqcNQPPgEeeEtvVmvLmJjg" name="checkEdges" subUnit="_J2jZoPPmEeeEtvVmvLmJjg">
+    <parameters xmi:id="_RIXaYPPmEeeEtvVmvLmJjg" name="startId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameterMappings xmi:id="_VddV4PPnEeeEtvVmvLmJjg" source="_RIXaYPPmEeeEtvVmvLmJjg" target="_Tt9uMPPnEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_VddV4fPnEeeEtvVmvLmJjg" source="_Tt9uMPPnEeeEtvVmvLmJjg" target="_RIXaYPPmEeeEtvVmvLmJjg"/>
+  </units>
+  <units xsi:type="henshin:PriorityUnit" xmi:id="_GslmwPPgEeeEtvVmvLmJjg"/>
+  <units xsi:type="henshin:Rule" xmi:id="_uh22MPPhEeeEtvVmvLmJjg" name="setAllUnexplored">
+    <parameters xmi:id="_3nGjcPPhEeeEtvVmvLmJjg" name="ex" kind="VAR"/>
+    <lhs xmi:id="_uiOCkPPhEeeEtvVmvLmJjg" name="Lhs"/>
+    <rhs xmi:id="_uiOCkfPhEeeEtvVmvLmJjg" name="Rhs"/>
+    <multiRules xmi:id="__aiDgPPhEeeEtvVmvLmJjg">
+      <parameters xmi:id="__akfwPPhEeeEtvVmvLmJjg" name="ex" kind="VAR"/>
+      <lhs xmi:id="__aiDgfPhEeeEtvVmvLmJjg" name="Lhs">
+        <nodes xmi:id="_xWAY0PPhEeeEtvVmvLmJjg">
+          <type href="wsn.ecore#//Node"/>
+          <attributes xmi:id="_z9pwgPPhEeeEtvVmvLmJjg" value="ex">
+            <type href="wsn.ecore#//Node/explored"/>
+          </attributes>
+        </nodes>
+      </lhs>
+      <rhs xmi:id="__aiDgvPhEeeEtvVmvLmJjg" name="Rhs">
+        <nodes xmi:id="_xWAY0fPhEeeEtvVmvLmJjg">
+          <type href="wsn.ecore#//Node"/>
+          <attributes xmi:id="_z9qXkPPhEeeEtvVmvLmJjg" value="false">
+            <type href="wsn.ecore#//Node/explored"/>
+          </attributes>
+        </nodes>
+      </rhs>
+      <mappings xmi:id="_xWAY0vPhEeeEtvVmvLmJjg" origin="_xWAY0PPhEeeEtvVmvLmJjg" image="_xWAY0fPhEeeEtvVmvLmJjg"/>
+    </multiRules>
+  </units>
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_kcesMPPiEeeEtvVmvLmJjg" name="explore" subUnits="_qz6IUPPiEeeEtvVmvLmJjg _FqcNQPPgEeeEtvVmvLmJjg">
+    <parameters xmi:id="_74WgwPPiEeeEtvVmvLmJjg" name="startId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameterMappings xmi:id="_C5SM4PPjEeeEtvVmvLmJjg" source="_74WgwPPiEeeEtvVmvLmJjg" target="_wHsWIPPiEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_C5SM4fPjEeeEtvVmvLmJjg" source="_wHsWIPPiEeeEtvVmvLmJjg" target="_74WgwPPiEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_bHA00PPmEeeEtvVmvLmJjg" source="_74WgwPPiEeeEtvVmvLmJjg" target="_RIXaYPPmEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_bHA00fPmEeeEtvVmvLmJjg" source="_RIXaYPPmEeeEtvVmvLmJjg" target="_74WgwPPiEeeEtvVmvLmJjg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_qz6IUPPiEeeEtvVmvLmJjg" name="setExplored">
+    <parameters xmi:id="_wHsWIPPiEeeEtvVmvLmJjg" name="id" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_yPJK0PPiEeeEtvVmvLmJjg" name="ex" kind="VAR"/>
+    <lhs xmi:id="_qz7WcPPiEeeEtvVmvLmJjg" name="Lhs">
+      <nodes xmi:id="_uWF1oPPiEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_wrFXEPPiEeeEtvVmvLmJjg" value="id">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_w7vCMPPiEeeEtvVmvLmJjg" value="ex">
+          <type href="wsn.ecore#//Node/explored"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_qz7WcfPiEeeEtvVmvLmJjg" name="Rhs">
+      <nodes xmi:id="_uWGcsPPiEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_wrFXEfPiEeeEtvVmvLmJjg" value="id">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_w7vCMfPiEeeEtvVmvLmJjg" value="true">
+          <type href="wsn.ecore#//Node/explored"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_uWGcsfPiEeeEtvVmvLmJjg" origin="_uWF1oPPiEeeEtvVmvLmJjg" image="_uWGcsPPiEeeEtvVmvLmJjg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XGpooPPkEeeEtvVmvLmJjg" name="getNext">
+    <parameters xmi:id="_dkGNMPPkEeeEtvVmvLmJjg" name="startId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_dkGNMfPkEeeEtvVmvLmJjg" name="endId" kind="OUT">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <lhs xmi:id="_XGsr8PPkEeeEtvVmvLmJjg" name="Lhs">
+      <nodes xmi:id="_epH7kPPkEeeEtvVmvLmJjg" incoming="_hCCTsPPkEeeEtvVmvLmJjg" outgoing="_g0qmEPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_m-6h0PPkEeeEtvVmvLmJjg" value="startId">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_e4zWUPPkEeeEtvVmvLmJjg" incoming="_hYlLcPPkEeeEtvVmvLmJjg" outgoing="_hLH-QPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_nN28wPPkEeeEtvVmvLmJjg" value="endId">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_6exXUPPlEeeEtvVmvLmJjg" value="false">
+          <type href="wsn.ecore#//Node/explored"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_fOSeIPPkEeeEtvVmvLmJjg" incoming="_g0qmEPPkEeeEtvVmvLmJjg _hLH-QPPkEeeEtvVmvLmJjg" outgoing="_hCCTsPPkEeeEtvVmvLmJjg _hYlLcPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//UnderlayLink"/>
+      </nodes>
+      <edges xmi:id="_g0qmEPPkEeeEtvVmvLmJjg" source="_epH7kPPkEeeEtvVmvLmJjg" target="_fOSeIPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_hCCTsPPkEeeEtvVmvLmJjg" source="_fOSeIPPkEeeEtvVmvLmJjg" target="_epH7kPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_hLH-QPPkEeeEtvVmvLmJjg" source="_e4zWUPPkEeeEtvVmvLmJjg" target="_fOSeIPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_hYlLcPPkEeeEtvVmvLmJjg" source="_fOSeIPPkEeeEtvVmvLmJjg" target="_e4zWUPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XGsr8fPkEeeEtvVmvLmJjg" name="Rhs">
+      <nodes xmi:id="_epH7kfPkEeeEtvVmvLmJjg" incoming="_hCCTsfPkEeeEtvVmvLmJjg" outgoing="_g0qmEfPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_m-7I4PPkEeeEtvVmvLmJjg" value="startId">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_e4zWUfPkEeeEtvVmvLmJjg" incoming="_hYlLcfPkEeeEtvVmvLmJjg" outgoing="_hLIlUPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_nN28wfPkEeeEtvVmvLmJjg" value="endId">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_6ex-YPPlEeeEtvVmvLmJjg" value="false">
+          <type href="wsn.ecore#//Node/explored"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_fOSeIfPkEeeEtvVmvLmJjg" incoming="_g0qmEfPkEeeEtvVmvLmJjg _hLIlUPPkEeeEtvVmvLmJjg" outgoing="_hCCTsfPkEeeEtvVmvLmJjg _hYlLcfPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//UnderlayLink"/>
+      </nodes>
+      <edges xmi:id="_g0qmEfPkEeeEtvVmvLmJjg" source="_epH7kfPkEeeEtvVmvLmJjg" target="_fOSeIfPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_hCCTsfPkEeeEtvVmvLmJjg" source="_fOSeIfPkEeeEtvVmvLmJjg" target="_epH7kfPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_hLIlUPPkEeeEtvVmvLmJjg" source="_e4zWUfPkEeeEtvVmvLmJjg" target="_fOSeIfPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_hYlLcfPkEeeEtvVmvLmJjg" source="_fOSeIfPkEeeEtvVmvLmJjg" target="_e4zWUfPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_epH7kvPkEeeEtvVmvLmJjg" origin="_epH7kPPkEeeEtvVmvLmJjg" image="_epH7kfPkEeeEtvVmvLmJjg"/>
+    <mappings xmi:id="_e4zWUvPkEeeEtvVmvLmJjg" origin="_e4zWUPPkEeeEtvVmvLmJjg" image="_e4zWUfPkEeeEtvVmvLmJjg"/>
+    <mappings xmi:id="_fOSeIvPkEeeEtvVmvLmJjg" origin="_fOSeIPPkEeeEtvVmvLmJjg" image="_fOSeIfPkEeeEtvVmvLmJjg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_2XLFQPPkEeeEtvVmvLmJjg" name="checkExplored">
+    <parameters xmi:id="_5ZY5EPPkEeeEtvVmvLmJjg" name="id" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <lhs xmi:id="_2XOIkPPkEeeEtvVmvLmJjg" name="Lhs">
+      <nodes xmi:id="_6AWycPPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_6j910PPkEeeEtvVmvLmJjg" value="id">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_7StLIPPkEeeEtvVmvLmJjg" value="true">
+          <type href="wsn.ecore#//Node/explored"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2XOIkfPkEeeEtvVmvLmJjg" name="Rhs">
+      <nodes xmi:id="_6AWycfPkEeeEtvVmvLmJjg">
+        <type href="wsn.ecore#//Node"/>
+        <attributes xmi:id="_6j910fPkEeeEtvVmvLmJjg" value="id">
+          <type href="wsn.ecore#//Node/id"/>
+        </attributes>
+        <attributes xmi:id="_7StLIfPkEeeEtvVmvLmJjg" value="true">
+          <type href="wsn.ecore#//Node/explored"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_6AWycvPkEeeEtvVmvLmJjg" origin="_6AWycPPkEeeEtvVmvLmJjg" image="_6AWycfPkEeeEtvVmvLmJjg"/>
+  </units>
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_J2jZoPPmEeeEtvVmvLmJjg" name="goToNextEdge" subUnits="_XGpooPPkEeeEtvVmvLmJjg _kcesMPPiEeeEtvVmvLmJjg">
+    <parameters xmi:id="_Tt9uMPPnEeeEtvVmvLmJjg" name="startId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_bui5cPPnEeeEtvVmvLmJjg" name="nextId" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameterMappings xmi:id="_dKWJEPPnEeeEtvVmvLmJjg" source="_Tt9uMPPnEeeEtvVmvLmJjg" target="_dkGNMPPkEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_dKWJEfPnEeeEtvVmvLmJjg" source="_dkGNMPPkEeeEtvVmvLmJjg" target="_Tt9uMPPnEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_dKWJEvPnEeeEtvVmvLmJjg" source="_bui5cPPnEeeEtvVmvLmJjg" target="_dkGNMfPkEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_dKWJE_PnEeeEtvVmvLmJjg" source="_dkGNMfPkEeeEtvVmvLmJjg" target="_bui5cPPnEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_gyAzUPPnEeeEtvVmvLmJjg" source="_bui5cPPnEeeEtvVmvLmJjg" target="_74WgwPPiEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_gyBaYPPnEeeEtvVmvLmJjg" source="_74WgwPPiEeeEtvVmvLmJjg" target="_bui5cPPnEeeEtvVmvLmJjg"/>
+  </units>
 </henshin:Module>

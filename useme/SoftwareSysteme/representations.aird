@@ -711,7 +711,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Gxlm0dJHEeeVQ-KXqfb_eQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Gxlm0tJHEeeVQ-KXqfb_eQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gxlm09JHEeeVQ-KXqfb_eQ" points="[20, 51, -115, -255]$[110, 280, -25, -26]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gxlm09JHEeeVQ-KXqfb_eQ" points="[22, 50, -113, -256]$[112, 255, -23, -51]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gxv-4NJHEeeVQ-KXqfb_eQ" id="(0.49019607843137253,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gxv-4dJHEeeVQ-KXqfb_eQ" id="(0.49019607843137253,1.0)"/>
         </edges>
@@ -743,7 +743,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Gxx0E9JHEeeVQ-KXqfb_eQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Gxx0FNJHEeeVQ-KXqfb_eQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gxx0FdJHEeeVQ-KXqfb_eQ" points="[-25, 50, 35, -256]$[-54, 255, 6, -51]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gxx0FdJHEeeVQ-KXqfb_eQ" points="[-10, 50, 50, -256]$[-51, 255, 9, -51]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GxybItJHEeeVQ-KXqfb_eQ" id="(0.49019607843137253,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GxybI9JHEeeVQ-KXqfb_eQ" id="(0.49019607843137253,1.0)"/>
         </edges>
@@ -831,7 +831,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='contextModeling']/@ownedRepresentations[name='UserHierarchy']/@defaultLayer/@nodeMappings[name='UserProfilesChildNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GuDxsNJHEeeVQ-KXqfb_eQ" name="Expert TRY TO FIND A BETTER NAME&#xA;Priority: High" incomingEdges="_GuKfYNJHEeeVQ-KXqfb_eQ _GuLtgNJHEeeVQ-KXqfb_eQ" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GuDxsNJHEeeVQ-KXqfb_eQ" name="Expert&#xA;Priority: High" incomingEdges="_GuKfYNJHEeeVQ-KXqfb_eQ _GuLtgNJHEeeVQ-KXqfb_eQ" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="useme.contextmodeling:UserProfile" href="SoftwareSysteme.useme#//@contextSpecification.0/@userProfileSpecification.0/@userProfile.6"/>
       <semanticElements xmi:type="useme.contextmodeling:UserProfile" href="SoftwareSysteme.useme#//@contextSpecification.0/@userProfileSpecification.0/@userProfile.6"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -918,6 +918,28 @@
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_R3ZaAOsnEeejUbe_gD0PjQ" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_R3ZaAesnEeejUbe_gD0PjQ" type="Sirius" element="_R28uEOsnEeejUbe_gD0PjQ" measurementUnit="Pixel">
         <children xmi:type="notation:Node" xmi:id="_R3bPMOsnEeejUbe_gD0PjQ" type="2003" element="_R28uFOsnEeejUbe_gD0PjQ">
+          <children xmi:type="notation:Node" xmi:id="_uWXyYPP2EeeEtvVmvLmJjg" type="3012" element="_uWE3cPP2EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_uWYZcPP2EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uWYZcfP2EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uWbcwPP2EeeEtvVmvLmJjg" type="3005" element="_uWFegPP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_uWbcwfP2EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWbcwvP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uWXyYfP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWXyYvP2EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uWa1sPP2EeeEtvVmvLmJjg" type="3012" element="_uWFegfP2EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_uWa1s_P2EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uWa1tPP2EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uWbcw_P2EeeEtvVmvLmJjg" type="3005" element="_uWGFkPP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_uWbcxPP2EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWbcxfP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uWa1sfP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWa1svP2EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
           <children xmi:type="notation:Node" xmi:id="_R3fgoOsnEeejUbe_gD0PjQ" type="5007"/>
           <children xmi:type="notation:Node" xmi:id="_R3fgoesnEeejUbe_gD0PjQ" type="7004">
             <children xmi:type="notation:Node" xmi:id="_R3gHsOsnEeejUbe_gD0PjQ" type="3010" element="_R28uFusnEeejUbe_gD0PjQ">
@@ -928,13 +950,50 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_R3guwesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_R3guwusnEeejUbe_gD0PjQ"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_oQZIEPP1EeeEtvVmvLmJjg" type="3010" element="_oQTogPP1EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_oQZIEfP1EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oQZIEvP1EeeEtvVmvLmJjg"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_R3fgousnEeejUbe_gD0PjQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_R3fgo-snEeejUbe_gD0PjQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_R3bPMesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R3bPMusnEeejUbe_gD0PjQ" x="620" y="198"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R3bPMusnEeejUbe_gD0PjQ" x="765" y="575"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_Y86EIOsnEeejUbe_gD0PjQ" type="2003" element="_Y83A0OsnEeejUbe_gD0PjQ">
+          <children xmi:type="notation:Node" xmi:id="_vm--UPP5EeeEtvVmvLmJjg" type="3012" element="_vm3CgPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vm--U_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vm--VPP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnAzhfP5EeeEtvVmvLmJjg" type="3005" element="_vm3CgfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnAzhvP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnAzh_P5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vm--UfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vm--UvP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnAMcPP5EeeEtvVmvLmJjg" type="3012" element="_vm3CgvP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnAMc_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnAMdPP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnAziPP5EeeEtvVmvLmJjg" type="3005" element="_vm3Cg_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnAzifP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnAzivP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnAMcfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnAMcvP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnAzgPP5EeeEtvVmvLmJjg" type="3012" element="_vm3pkPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnAzg_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnAzhPP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnBakPP5EeeEtvVmvLmJjg" type="3005" element="_vm3pkfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnBakfP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnBakvP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnAzgfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnAzgvP5EeeEtvVmvLmJjg" x="26" y="52" width="16" height="32"/>
+          </children>
           <children xmi:type="notation:Node" xmi:id="_Y86EI-snEeejUbe_gD0PjQ" type="5007"/>
           <children xmi:type="notation:Node" xmi:id="_Y86EJOsnEeejUbe_gD0PjQ" type="7004">
             <children xmi:type="notation:Node" xmi:id="_Y86EJ-snEeejUbe_gD0PjQ" type="3010" element="_Y83n4OsnEeejUbe_gD0PjQ">
@@ -945,18 +1004,644 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_Y86rMesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_Y86rMusnEeejUbe_gD0PjQ"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_oQZIE_P1EeeEtvVmvLmJjg" type="3010" element="_oQUPkfP1EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_oQZIFPP1EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oQZIFfP1EeeEtvVmvLmJjg"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_Y86EJesnEeejUbe_gD0PjQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_Y86EJusnEeejUbe_gD0PjQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Y86EIesnEeejUbe_gD0PjQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y86EIusnEeejUbe_gD0PjQ" x="290" y="198"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y86EIusnEeejUbe_gD0PjQ" x="1250" y="490"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_r7k20PPpEeeEtvVmvLmJjg" type="2003" element="_r7PfoPPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnBak_P5EeeEtvVmvLmJjg" type="3012" element="_vm3pkvP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnBalvP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnBal_P5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnCBoPP5EeeEtvVmvLmJjg" type="3005" element="_vm3pk_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnCBofP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnCBovP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnBalPP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnBalfP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnBamPP5EeeEtvVmvLmJjg" type="3012" element="_vm3plPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnBam_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnBanPP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnCBo_P5EeeEtvVmvLmJjg" type="3005" element="_vm3plfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnCBpPP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnCBpfP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnBamfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnBamvP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_r7pvUPPpEeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_r7qWYPPpEeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_r7syoPPpEeeEtvVmvLmJjg" type="3010" element="_r7VmQPPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7syofPpEeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7syovPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_r7tZsPPpEeeEtvVmvLmJjg" type="3010" element="_r7WNUfPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7tZsfPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7tZsvPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_oQZIFvP1EeeEtvVmvLmJjg" type="3010" element="_oQU2ofP1EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_oQZIF_P1EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oQZIGPP1EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_r7qWYfPpEeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_r7qWYvPpEeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_r7k20fPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r7k20vPpEeeEtvVmvLmJjg" x="490" y="465"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_r7q9cPPpEeeEtvVmvLmJjg" type="2003" element="_r7QGsPPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnCBpvP5EeeEtvVmvLmJjg" type="3012" element="_vm4QoPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnCBqfP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnCBqvP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnCotfP5EeeEtvVmvLmJjg" type="3005" element="_vm4QofP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnCotvP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnCot_P5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnCBp_P5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnCBqPP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnCosPP5EeeEtvVmvLmJjg" type="3012" element="_vm4QovP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnCos_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnCotPP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnDPwPP5EeeEtvVmvLmJjg" type="3005" element="_vm4Qo_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnDPwfP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnDPwvP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnCosfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnCosvP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_r7q9c_PpEeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_r7q9dPPpEeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_r7tZs_PpEeeEtvVmvLmJjg" type="3010" element="_r7W0YPPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7tZtPPpEeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7tZtfPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_r7uAwPPpEeeEtvVmvLmJjg" type="3010" element="_r7W0YvPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7uAwfPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7uAwvPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_oQZvIPP1EeeEtvVmvLmJjg" type="3010" element="_oQU2o_P1EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_oQZvIfP1EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oQZvIvP1EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_r7q9dfPpEeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_r7q9dvPpEeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_r7q9cfPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r7q9cvPpEeeEtvVmvLmJjg" x="74" y="317"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_r7rkgPPpEeeEtvVmvLmJjg" type="2003" element="_r7QtwfPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnDPw_P5EeeEtvVmvLmJjg" type="3012" element="_vm4QpPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnDPxvP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnDPx_P5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnD21PP5EeeEtvVmvLmJjg" type="3005" element="_vm4QpfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnD21fP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnD21vP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnDPxPP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnDPxfP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnDPyPP5EeeEtvVmvLmJjg" type="3012" element="_vm43sPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnD20vP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnD20_P5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnD21_P5EeeEtvVmvLmJjg" type="3005" element="_vm43sfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnD22PP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnD22fP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnD20PP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnD20fP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_r7rkg_PpEeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_r7rkhPPpEeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_r7uAw_PpEeeEtvVmvLmJjg" type="3010" element="_r7XbcPPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7uAxPPpEeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7uAxfPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_r7un0PPpEeeEtvVmvLmJjg" type="3010" element="_r7XbcvPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7un0fPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7un0vPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VEmzMPP2EeeEtvVmvLmJjg" type="3010" element="_VEhToPP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VEmzMfP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VEmzMvP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_r7rkhfPpEeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_r7rkhvPpEeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_r7rkgfPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r7rkgvPpEeeEtvVmvLmJjg" x="1156" y="250"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_r7rkh_PpEeeEtvVmvLmJjg" type="2003" element="_r7Qtw_PpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnEd4PP5EeeEtvVmvLmJjg" type="3012" element="_vm43svP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnEd4_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnEd5PP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnEd6vP5EeeEtvVmvLmJjg" type="3005" element="_vm43s_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnEd6_P5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnEd7PP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnEd4fP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnEd4vP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnEd5fP5EeeEtvVmvLmJjg" type="3012" element="_vm43tPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnEd6PP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnEd6fP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnFE8PP5EeeEtvVmvLmJjg" type="3005" element="_vm43tfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnFE8fP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnFE8vP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnEd5vP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnEd5_P5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_r7rkivPpEeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_r7rki_PpEeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_r7un0_PpEeeEtvVmvLmJjg" type="3010" element="_r7YCgPPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7un1PPpEeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7un1fPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_r7vO4PPpEeeEtvVmvLmJjg" type="3010" element="_r7YCgvPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7vO4fPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7vO4vPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VEmzM_P2EeeEtvVmvLmJjg" type="3010" element="_VEh6sPP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VEmzNPP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VEmzNfP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_r7rkjPPpEeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_r7rkjfPpEeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_r7rkiPPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r7rkifPpEeeEtvVmvLmJjg" x="-350" y="38"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_r7sLkPPpEeeEtvVmvLmJjg" type="2003" element="_r7RU0PPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnFE8_P5EeeEtvVmvLmJjg" type="3012" element="_vm5ewPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnFE9vP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnFE9_P5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnFsAPP5EeeEtvVmvLmJjg" type="3005" element="_vm5ewfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnFsAfP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnFsAvP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnFE9PP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnFE9fP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnFE-PP5EeeEtvVmvLmJjg" type="3012" element="_vm5ewvP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnFE-_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnFE_PP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnFsA_P5EeeEtvVmvLmJjg" type="3005" element="_vm5ew_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnFsBPP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnFsBfP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnFE-fP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnFE-vP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_r7sLk_PpEeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_r7sLlPPpEeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_r7vO4_PpEeeEtvVmvLmJjg" type="3010" element="_r7YpkPPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7vO5PPpEeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7vO5fPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_r7vO5vPpEeeEtvVmvLmJjg" type="3010" element="_r7YpkvPpEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_r7vO5_PpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_r7vO6PPpEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VEnaQPP2EeeEtvVmvLmJjg" type="3010" element="_VEh6svP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VEnaQfP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VEnaQvP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_r7sLlfPpEeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_r7sLlvPpEeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_r7sLkfPpEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r7sLkvPpEeeEtvVmvLmJjg" x="-20" y="130"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WupUIPPrEeeEtvVmvLmJjg" type="2003" element="_WufjIPPrEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnFsBvP5EeeEtvVmvLmJjg" type="3012" element="_vm5exPP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnGTEPP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnGTEfP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnG6IvP5EeeEtvVmvLmJjg" type="3005" element="_vm5exfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnG6I_P5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnG6JPP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnFsB_P5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnFsCPP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnGTEvP5EeeEtvVmvLmJjg" type="3012" element="_vm5exvP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnG6IPP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnG6IfP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnG6JfP5EeeEtvVmvLmJjg" type="3005" element="_vm6F0PP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnG6JvP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnG6J_P5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnGTE_P5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnGTFPP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WupUI_PrEeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_WupUJPPrEeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Wup7MPPrEeeEtvVmvLmJjg" type="3010" element="_WugKMvPrEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Wup7MfPrEeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Wup7MvPrEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Wup7M_PrEeeEtvVmvLmJjg" type="3010" element="_WugxQPPrEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Wup7NPPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Wup7NfPrEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VEnaQ_P2EeeEtvVmvLmJjg" type="3010" element="_VEihwPP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VEnaRPP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VEnaRfP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_WupUJfPrEeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_WupUJvPrEeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WupUIfPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WupUIvPrEeeEtvVmvLmJjg" x="230" y="38"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WupUJ_PrEeeEtvVmvLmJjg" type="2003" element="_WugKMPPrEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnG6KPP5EeeEtvVmvLmJjg" type="3012" element="_vm6F0fP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnHhMPP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnHhMfP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnHhN_P5EeeEtvVmvLmJjg" type="3005" element="_vm6F0vP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnHhOPP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnHhOfP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnG6KfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnG6KvP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnHhMvP5EeeEtvVmvLmJjg" type="3012" element="_vm6F0_P5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnHhNfP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnHhNvP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnIIQPP5EeeEtvVmvLmJjg" type="3005" element="_vm6F1PP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnIIQfP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIIQvP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnHhM_P5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnHhNPP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WupUKvPrEeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_WupUK_PrEeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_WuqiQPPrEeeEtvVmvLmJjg" type="3010" element="_WugxQvPrEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_WuqiQfPrEeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_WuqiQvPrEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_WuqiQ_PrEeeEtvVmvLmJjg" type="3010" element="_WugxRPPrEeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_WuqiRPPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_WuqiRfPrEeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VEnaRvP2EeeEtvVmvLmJjg" type="3010" element="_VEihwvP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VEnaR_P2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VEnaSPP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_WupULPPrEeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_WupULfPrEeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WupUKPPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WupUKfPrEeeEtvVmvLmJjg" x="560" y="155"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_eYRB0PP0EeeEtvVmvLmJjg" type="2003" element="_eYK7MPP0EeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnIIQ_P5EeeEtvVmvLmJjg" type="3012" element="_vm6s4PP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnIIRvP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnIIR_P5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnIvUPP5EeeEtvVmvLmJjg" type="3005" element="_vm6s4fP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnIvUfP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIvUvP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnIIRPP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIIRfP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnIISPP5EeeEtvVmvLmJjg" type="3012" element="_vm6s4vP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnIIS_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnIITPP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnIvU_P5EeeEtvVmvLmJjg" type="3005" element="_vm6s4_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnIvVPP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIvVfP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnIISfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIISvP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYRo4PP0EeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_eYRo4fP0EeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_eYSP8PP0EeeEtvVmvLmJjg" type="3010" element="_eYLiQvP0EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eYSP8fP0EeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eYSP8vP0EeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eYSP8_P0EeeEtvVmvLmJjg" type="3010" element="_eYLiRPP0EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eYSP9PP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eYSP9fP0EeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VEoBUPP2EeeEtvVmvLmJjg" type="3010" element="_VEjI0PP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VEoBUfP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VEoBUvP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_eYRo4vP0EeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_eYRo4_P0EeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_eYRB0fP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYRB0vP0EeeEtvVmvLmJjg" x="910" y="55"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_eYRo5PP0EeeEtvVmvLmJjg" type="2003" element="_eYK7MvP0EeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnIvVvP5EeeEtvVmvLmJjg" type="3012" element="_vm7T8PP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnIvWfP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnIvWvP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnJ9cPP5EeeEtvVmvLmJjg" type="3005" element="_vm7T8fP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnJ9cfP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnJ9cvP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnIvV_P5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnIvWPP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnJWYPP5EeeEtvVmvLmJjg" type="3012" element="_vm7T8vP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnJWY_P5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnJWZPP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnJ9c_P5EeeEtvVmvLmJjg" type="3005" element="_vm7T8_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnJ9dPP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnJ9dfP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnJWYfP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnJWYvP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYRo5_P0EeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_eYRo6PP0EeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_eYSP9vP0EeeEtvVmvLmJjg" type="3010" element="_eYMJUPP0EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eYSP9_P0EeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eYSP-PP0EeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eYSP-fP0EeeEtvVmvLmJjg" type="3010" element="_eYMJUvP0EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eYSP-vP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eYSP-_P0EeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VEoBU_P2EeeEtvVmvLmJjg" type="3010" element="_VEjI0vP2EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VEoBVPP2EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VEoBVfP2EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_eYRo6fP0EeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_eYRo6vP0EeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_eYRo5fP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYRo5vP0EeeEtvVmvLmJjg" x="1340" y="165"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_eYRo6_P0EeeEtvVmvLmJjg" type="2003" element="_eYLiQPP0EeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_vnJ9dvP5EeeEtvVmvLmJjg" type="3012" element="_vm77APP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnJ9efP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnJ9evP5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnKkgPP5EeeEtvVmvLmJjg" type="3005" element="_vm77AfP5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnKkgfP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnKkgvP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnJ9d_P5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnJ9ePP5EeeEtvVmvLmJjg" x="-8" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vnJ9e_P5EeeEtvVmvLmJjg" type="3012" element="_vm77AvP5EeeEtvVmvLmJjg">
+            <children xmi:type="notation:Node" xmi:id="_vnJ9fvP5EeeEtvVmvLmJjg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vnJ9f_P5EeeEtvVmvLmJjg" x="17"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vnKkg_P5EeeEtvVmvLmJjg" type="3005" element="_vm77A_P5EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vnKkhPP5EeeEtvVmvLmJjg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnKkhfP5EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vnJ9fPP5EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vnJ9ffP5EeeEtvVmvLmJjg" x="9" y="30" width="16" height="32"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYRo7vP0EeeEtvVmvLmJjg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_eYRo7_P0EeeEtvVmvLmJjg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_eYSP_PP0EeeEtvVmvLmJjg" type="3010" element="_eYMJVPP0EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eYSP_fP0EeeEtvVmvLmJjg" fontColor="1533850" fontName="Segoe UI" fontHeight="8" bold="true" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eYSP_vP0EeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eYSP__P0EeeEtvVmvLmJjg" type="3010" element="_eYMJVvP0EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eYSQAPP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eYSQAfP0EeeEtvVmvLmJjg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_oQaWMPP1EeeEtvVmvLmJjg" type="3010" element="_oQWEwPP1EeeEtvVmvLmJjg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_oQaWMfP1EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oQaWMvP1EeeEtvVmvLmJjg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_eYRo8PP0EeeEtvVmvLmJjg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_eYRo8fP0EeeEtvVmvLmJjg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_eYRo7PP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYRo7fP0EeeEtvVmvLmJjg" x="1620" y="355"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_R3ZaAusnEeejUbe_gD0PjQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_WurwaPPrEeeEtvVmvLmJjg" type="4001" element="_Wukbo_PrEeeEtvVmvLmJjg" source="_r7k20PPpEeeEtvVmvLmJjg" target="_r7rkgPPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_WurwbPPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WurwbfPrEeeEtvVmvLmJjg" x="238" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WurwbvPrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wurwb_PrEeeEtvVmvLmJjg" x="-218" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WurwcPPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WurwcfPrEeeEtvVmvLmJjg" x="-140" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WurwafPrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WurwavPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Wurwa_PrEeeEtvVmvLmJjg" points="[132, -29, -568, 186]$[611, -186, -89, 29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WusXcPPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WusXcfPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Wus-gfPrEeeEtvVmvLmJjg" type="4001" element="_WulCsvPrEeeEtvVmvLmJjg" source="_r7q9cPPpEeeEtvVmvLmJjg" target="_WupUIPPrEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_Wus-hfPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wus-hvPrEeeEtvVmvLmJjg" x="6" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Wus-h_PrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wus-iPPrEeeEtvVmvLmJjg" x="-6" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Wus-ifPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wus-ivPrEeeEtvVmvLmJjg" x="-10" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Wus-gvPrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Wus-g_PrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Wus-hPPrEeeEtvVmvLmJjg" points="[7, -6, -136, 221]$[122, -93, -21, 134]$[143, -227, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wus-i_PrEeeEtvVmvLmJjg" id="(0.8032786885245902,0.10344827586206896)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wus-jPPrEeeEtvVmvLmJjg" id="(0.5051020408163265,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ycWKQPPrEeeEtvVmvLmJjg" type="4001" element="_ycSf4PPrEeeEtvVmvLmJjg" source="_R3bPMOsnEeejUbe_gD0PjQ" target="_Y86EIOsnEeejUbe_gD0PjQ">
+          <children xmi:type="notation:Node" xmi:id="_ycWKRPPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWKRfPrEeeEtvVmvLmJjg" x="-74" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycWKRvPrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWKR_PrEeeEtvVmvLmJjg" x="75" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycWKSPPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWKSfPrEeeEtvVmvLmJjg" x="81" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ycWKQfPrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ycWKQvPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ycWKQ_PrEeeEtvVmvLmJjg" points="[132, -29, -334, 56]$[338, -64, -128, 21]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycWxUPPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycWxUfPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ycWxUvPrEeeEtvVmvLmJjg" type="4001" element="_ycSf4_PrEeeEtvVmvLmJjg" source="_R3bPMOsnEeejUbe_gD0PjQ" target="_r7k20PPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_ycWxVvPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxV_PrEeeEtvVmvLmJjg" x="-41" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycWxWPPrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxWfPrEeeEtvVmvLmJjg" x="42"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycWxWvPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxW_PrEeeEtvVmvLmJjg" x="45"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ycWxU_PrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ycWxVPPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ycWxVfPrEeeEtvVmvLmJjg" points="[-57, -29, 231, 81]$[-206, -81, 82, 29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycWxXPPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycWxXfPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ycWxXvPrEeeEtvVmvLmJjg" type="4001" element="_ycTG8PPrEeeEtvVmvLmJjg" source="_r7k20PPpEeeEtvVmvLmJjg" target="_r7q9cPPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_ycWxYvPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxY_PrEeeEtvVmvLmJjg" x="29" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycWxZPPrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxZfPrEeeEtvVmvLmJjg" x="-21" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycWxZvPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxZ_PrEeeEtvVmvLmJjg" x="-17" y="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ycWxX_PrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ycWxYPPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ycWxYfPrEeeEtvVmvLmJjg" points="[-134, 0, 233, 148]$[-322, -119, 45, 29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycWxaPPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycWxafPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ycWxavPrEeeEtvVmvLmJjg" type="4001" element="_ycTG8_PrEeeEtvVmvLmJjg" source="_r7q9cPPpEeeEtvVmvLmJjg" target="_r7rkh_PpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_ycWxbvPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxb_PrEeeEtvVmvLmJjg" x="4" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycWxcPPrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycWxcfPrEeeEtvVmvLmJjg" x="-5" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycXYYPPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycXYYfPrEeeEtvVmvLmJjg" x="-3" y="-8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ycWxa_PrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ycWxbPPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ycWxbfPrEeeEtvVmvLmJjg" points="[-4, -3, 226, 250]$[-119, -90, 111, 163]$[-230, -180, 0, 73]$[-230, -224, 0, 29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycXYYvPrEeeEtvVmvLmJjg" id="(0.09562841530054644,0.05172413793103448)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycXYY_PrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ycXYZPPrEeeEtvVmvLmJjg" type="4001" element="_ycTG9vPrEeeEtvVmvLmJjg" source="_r7q9cPPpEeeEtvVmvLmJjg" target="_r7sLkPPpEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_ycXYaPPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycXYafPrEeeEtvVmvLmJjg" x="-3" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycXYavPrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycXYa_PrEeeEtvVmvLmJjg" x="-4" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycXYbPPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycXYbfPrEeeEtvVmvLmJjg" x="9" y="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ycXYZfPrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ycXYZvPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ycXYZ_PrEeeEtvVmvLmJjg" points="[18, -29, 46, 158]$[-20, -158, 8, 29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycXYbvPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycXYb_PrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ycX_cPPrEeeEtvVmvLmJjg" type="4001" element="_ycTG-fPrEeeEtvVmvLmJjg" source="_r7rkgPPpEeeEtvVmvLmJjg" target="_WupUJ_PrEeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_ycX_dPPrEeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycX_dfPrEeeEtvVmvLmJjg" x="13" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycYmgPPrEeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycYmgfPrEeeEtvVmvLmJjg" x="-6" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ycYmgvPrEeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ycYmg_PrEeeEtvVmvLmJjg" x="-11" y="-5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ycX_cfPrEeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ycX_cvPrEeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ycX_c_PrEeeEtvVmvLmJjg" points="[-168, -22, 383, 73]$[-505, -66, 46, 29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycYmhPPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ycYmhfPrEeeEtvVmvLmJjg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_eYTeEPP0EeeEtvVmvLmJjg" type="4001" element="_eYOlkPP0EeeEtvVmvLmJjg" source="_Y86EIOsnEeejUbe_gD0PjQ" target="_eYRo6_P0EeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_eYUFIPP0EeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUFIfP0EeeEtvVmvLmJjg" x="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYUFIvP0EeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUFI_P0EeeEtvVmvLmJjg" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYUFJPP0EeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUFJfP0EeeEtvVmvLmJjg" x="2" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_eYTeEfP0EeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_eYTeEvP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eYTeE_P0EeeEtvVmvLmJjg" points="[0, 0, -324, 77]$[324, -77, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYUFJvP0EeeEtvVmvLmJjg" id="(0.5019455252918288,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYUFJ_P0EeeEtvVmvLmJjg" id="(0.5060975609756098,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_eYUFKPP0EeeEtvVmvLmJjg" type="4001" element="_eYOlk_P0EeeEtvVmvLmJjg" source="_r7rkgPPpEeeEtvVmvLmJjg" target="_eYRB0PP0EeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_eYUFLPP0EeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUFLfP0EeeEtvVmvLmJjg" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYUsMPP0EeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUsMfP0EeeEtvVmvLmJjg" x="-2" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYUsMvP0EeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUsM_P0EeeEtvVmvLmJjg" x="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_eYUFKfP0EeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_eYUFKvP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eYUFK_P0EeeEtvVmvLmJjg" points="[0, 0, 100, 137]$[-100, -137, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYUsNPP0EeeEtvVmvLmJjg" id="(0.5029761904761905,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYUsNfP0EeeEtvVmvLmJjg" id="(0.5007949125596184,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_eYUsNvP0EeeEtvVmvLmJjg" type="4001" element="_eYOllvP0EeeEtvVmvLmJjg" source="_r7rkgPPpEeeEtvVmvLmJjg" target="_eYRo5PP0EeeEtvVmvLmJjg">
+          <children xmi:type="notation:Node" xmi:id="_eYUsOvP0EeeEtvVmvLmJjg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUsO_P0EeeEtvVmvLmJjg" x="4" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYUsPPP0EeeEtvVmvLmJjg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUsPfP0EeeEtvVmvLmJjg" x="-1" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eYUsPvP0EeeEtvVmvLmJjg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYUsP_P0EeeEtvVmvLmJjg" x="-2" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_eYUsN_P0EeeEtvVmvLmJjg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_eYUsOPP0EeeEtvVmvLmJjg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eYUsOfP0EeeEtvVmvLmJjg" points="[0, 0, -273, 27]$[273, -27, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYUsQPP0EeeEtvVmvLmJjg" id="(0.5029761904761905,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYUsQfP0EeeEtvVmvLmJjg" id="(0.5019455252918288,1.0)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_R28uFOsnEeejUbe_gD0PjQ" name="Topology Control Verification">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_R28uFOsnEeejUbe_gD0PjQ" name="Quality of WSN-Control" outgoingEdges="_ycSf4PPrEeeEtvVmvLmJjg _ycSf4_PrEeeEtvVmvLmJjg">
       <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
       <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_uWE3cPP2EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_uWFegPP2EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_uWFegfP2EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_uWGFkPP2EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -965,7 +1650,7 @@
         <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_R28uFusnEeejUbe_gD0PjQ" name="Q: Is the topology ">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_R28uFusnEeejUbe_gD0PjQ" name="Q: Is the generall quality of WSN-Control achieved?">
         <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
         <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_R28uF-snEeejUbe_gD0PjQ" labelColor="154,103,23" color="204,242,166">
@@ -984,10 +1669,42 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
       </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oQTogPP1EeeEtvVmvLmJjg" name="Scope: all">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_oQUPkPP1EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Y83A0OsnEeejUbe_gD0PjQ" name="Quality in Use">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Y83A0OsnEeejUbe_gD0PjQ" name="Quality in Use" outgoingEdges="_eYOlkPP0EeeEtvVmvLmJjg" incomingEdges="_ycSf4PPrEeeEtvVmvLmJjg">
       <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
       <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm3CgPP5EeeEtvVmvLmJjg" name="Language evaluator" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm3CgfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm3CgvP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm3Cg_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm3pkPP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm3pkfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -996,7 +1713,7 @@
         <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Y83n4OsnEeejUbe_gD0PjQ" name="Q: Is Quality in Use of Visualino achived?">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Y83n4OsnEeejUbe_gD0PjQ" name="Q: Is quality in use of WSN-Control achived?">
         <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
         <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_Y83n4esnEeejUbe_gD0PjQ" labelColor="154,103,23" color="204,242,166">
@@ -1015,6 +1732,652 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
       </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oQUPkfP1EeeEtvVmvLmJjg" name="Scope: Workflow1 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_oQU2oPP1EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_r7PfoPPpEeeEtvVmvLmJjg" name="Programm correctness" outgoingEdges="_Wukbo_PrEeeEtvVmvLmJjg _ycTG8PPrEeeEtvVmvLmJjg" incomingEdges="_ycSf4_PrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm3pkvP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm3pk_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm3plPP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm3plfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_r7PfofPpEeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7VmQPPpEeeEtvVmvLmJjg" name="Q: Is the correctness of WSN-Control achieved?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7WNUPPpEeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7WNUfPpEeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7WNUvPpEeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oQU2ofP1EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_oQU2ovP1EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_r7QGsPPpEeeEtvVmvLmJjg" name="Topology control verification" outgoingEdges="_WulCsvPrEeeEtvVmvLmJjg _ycTG8_PrEeeEtvVmvLmJjg _ycTG9vPrEeeEtvVmvLmJjg" incomingEdges="_ycTG8PPrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm4QoPP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm4QofP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm4QovP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm4Qo_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_r7QtwPPpEeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7W0YPPpEeeEtvVmvLmJjg" name="Q: Is the correctness of the topology control verification achieved?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7W0YfPpEeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7W0YvPpEeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7W0Y_PpEeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oQU2o_P1EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_oQU2pPP1EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_r7QtwfPpEeeEtvVmvLmJjg" name="Network maintenance" outgoingEdges="_ycTG-fPrEeeEtvVmvLmJjg _eYOlk_P0EeeEtvVmvLmJjg _eYOllvP0EeeEtvVmvLmJjg" incomingEdges="_Wukbo_PrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm4QpPP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm4QpfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm43sPP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm43sfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_r7QtwvPpEeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7XbcPPpEeeEtvVmvLmJjg" name="Q: Is the correctness of the network maintenance achieved?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7XbcfPpEeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7XbcvPpEeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7Xbc_PpEeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VEhToPP2EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VEhTofP2EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_r7Qtw_PpEeeEtvVmvLmJjg" name="PC_G1: Classifiying edges" incomingEdges="_ycTG8_PrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.5"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.5"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm43svP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm43s_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm43tPP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm43tfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_r7QtxPPpEeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7YCgPPpEeeEtvVmvLmJjg" name="Q: If the underlay environment is inactive, does TC classify each unclassified edge?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.5"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.5"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7YCgfPpEeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7YCgvPpEeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.5"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.5"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7YCg_PpEeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VEh6sPP2EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VEh6sfP2EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_r7RU0PPpEeeEtvVmvLmJjg" name="PC_G2: Network connectedness" incomingEdges="_ycTG9vPrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.6"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.6"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm5ewPP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm5ewfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm5ewvP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm5ew_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_r7RU0fPpEeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7YpkPPpEeeEtvVmvLmJjg" name="Q: If the underlay environment is inactive, does TC preserve connectedness of the network?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.6"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.6"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7YpkfPpEeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_r7YpkvPpEeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.6"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.6"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_r7Ypk_PpEeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VEh6svP2EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VEh6s_P2EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_WufjIPPrEeeEtvVmvLmJjg" name="PC_G3: Min/Max number of connections" incomingEdges="_WulCsvPrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.7"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.7"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm5exPP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm5exfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm5exvP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm6F0PP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_WufjIfPrEeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_WugKMvPrEeeEtvVmvLmJjg" name="Q: If the underlay environment is inactive,  does TC always obey the min/max number of connections?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.7"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.7"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_WugKM_PrEeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_WugxQPPrEeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.7"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.7"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_WugxQfPrEeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VEihwPP2EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VEihwfP2EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_WugKMPPrEeeEtvVmvLmJjg" name="PC_G4: Overlay edges with underlay path" incomingEdges="_ycTG-fPrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.8"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.8"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm6F0fP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm6F0vP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm6F0_P5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm6F1PP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_WugKMfPrEeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_WugxQvPrEeeEtvVmvLmJjg" name="Q: Does TC guarantee that for each overlay edge, there is an underlay path?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.8"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.8"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_WugxQ_PrEeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_WugxRPPrEeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.8"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.8"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_WugxRfPrEeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VEihwvP2EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VEihw_P2EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Wukbo_PrEeeEtvVmvLmJjg" sourceNode="_r7PfoPPpEeeEtvVmvLmJjg" targetNode="_r7QtwfPpEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_WukbpPPrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_WukbpfPrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_WulCsvPrEeeEtvVmvLmJjg" sourceNode="_r7QGsPPpEeeEtvVmvLmJjg" targetNode="_WufjIPPrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_WulCs_PrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_WulCtPPrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ycSf4PPrEeeEtvVmvLmJjg" sourceNode="_R28uFOsnEeejUbe_gD0PjQ" targetNode="_Y83A0OsnEeejUbe_gD0PjQ">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ycSf4fPrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ycSf4vPrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ycSf4_PrEeeEtvVmvLmJjg" sourceNode="_R28uFOsnEeejUbe_gD0PjQ" targetNode="_r7PfoPPpEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ycSf5PPrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ycSf5fPrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ycTG8PPrEeeEtvVmvLmJjg" sourceNode="_r7PfoPPpEeeEtvVmvLmJjg" targetNode="_r7QGsPPpEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ycTG8fPrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ycTG8vPrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ycTG8_PrEeeEtvVmvLmJjg" sourceNode="_r7QGsPPpEeeEtvVmvLmJjg" targetNode="_r7Qtw_PpEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ycTG9PPrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ycTG9fPrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ycTG9vPrEeeEtvVmvLmJjg" sourceNode="_r7QGsPPpEeeEtvVmvLmJjg" targetNode="_r7RU0PPpEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ycTG9_PrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ycTG-PPrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ycTG-fPrEeeEtvVmvLmJjg" sourceNode="_r7QtwfPpEeeEtvVmvLmJjg" targetNode="_WugKMPPrEeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ycTG-vPrEeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ycTG-_PrEeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_eYK7MPP0EeeEtvVmvLmJjg" name="PC_G5: Error messaging" incomingEdges="_eYOlk_P0EeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.9"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.9"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm6s4PP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm6s4fP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm6s4vP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm6s4_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_eYK7MfP0EeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eYLiQvP0EeeEtvVmvLmJjg" name="Q: Does TC give an error message if after an environment event, any of the Goals PC_G1-PC_G4 is not achievable anymore?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.9"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.9"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_eYLiQ_P0EeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eYLiRPP0EeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.9"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.9"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_eYLiRfP0EeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VEjI0PP2EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VEjI0fP2EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_eYK7MvP0EeeEtvVmvLmJjg" name="PC_G6: Build  and validate network" incomingEdges="_eYOllvP0EeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.10"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.10"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm7T8PP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm7T8fP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm7T8vP5EeeEtvVmvLmJjg" name="WSN-Control developer" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm7T8_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_eYK7M_P0EeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eYMJUPP0EeeEtvVmvLmJjg" name="Q: Is the user able to build an initial network and validate if it is consistent with Goals PC_G1-PC_G4?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.10"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.10"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_eYMJUfP0EeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eYMJUvP0EeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.10"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.10"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_eYMJU_P0EeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VEjI0vP2EeeEtvVmvLmJjg" name="Scope: Workflow2 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.2"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VEjI0_P2EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_eYLiQPP0EeeEtvVmvLmJjg" name="QiU_G1: Build  and validate network" incomingEdges="_eYOlkPP0EeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.11"/>
+      <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.11"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm77APP5EeeEtvVmvLmJjg" name="Language evaluator" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.2"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm77AfP5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vm77AvP5EeeEtvVmvLmJjg" name="WSN expert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Actor" href="SoftwareSysteme.useme#//@goalSpecification.0/@actor.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vm77A_P5EeeEtvVmvLmJjg" labelAlignment="RIGHT" workspacePath="/pt.fct.unl.novalincs.useme.sirius.design/icons/UCActor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@borderedNodeMappings[name='ActorBNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_eYLiQfP0EeeEtvVmvLmJjg" borderSize="1" borderSizeComputationExpression="1" borderColor="77,137,20" backgroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eYMJVPP0EeeEtvVmvLmJjg" name="Q: Is WSN-Control usable for the end user to build and validate a wsn?">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.11"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.11"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_eYMJVfP0EeeEtvVmvLmJjg" labelColor="154,103,23" color="204,242,166">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='QuestionNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eYMJVvP0EeeEtvVmvLmJjg" name="Priority: High">
+        <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.11"/>
+        <semanticElements xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.11"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_eYMJV_P0EeeEtvVmvLmJjg" showIcon="false" color="0,0,0">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='UserGoalPriorityBNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oQWEwPP1EeeEtvVmvLmJjg" name="Scope: Workflow1 specification">
+        <target xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.1"/>
+        <semanticElements xmi:type="useme.goalmodeling:Scope" href="SoftwareSysteme.useme#//@goalSpecification.0/@scope.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_oQWr0PP1EeeEtvVmvLmJjg">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@containerMappings[name='UsabilityGoalContainer']/@subNodeMappings[name='ScopeCMNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_eYOlkPP0EeeEtvVmvLmJjg" sourceNode="_Y83A0OsnEeejUbe_gD0PjQ" targetNode="_eYLiQPP0EeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_eYOlkfP0EeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_eYOlkvP0EeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_eYOlk_P0EeeEtvVmvLmJjg" sourceNode="_r7QtwfPpEeeEtvVmvLmJjg" targetNode="_eYK7MPP0EeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_eYOllPP0EeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_eYOllfP0EeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_eYOllvP0EeeEtvVmvLmJjg" sourceNode="_r7QtwfPpEeeEtvVmvLmJjg" targetNode="_eYK7MvP0EeeEtvVmvLmJjg">
+      <target xmi:type="useme.goalmodeling:UsabilityGoal" href="SoftwareSysteme.useme#//@goalSpecification.0/@goalModel.0/@usabilityGoal.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_eYPMoPP0EeeEtvVmvLmJjg" size="2" strokeColor="77,137,20">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_eYPMofP0EeeEtvVmvLmJjg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']/@defaultLayer/@edgeMappings[name='usabilityGoalEdge']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/pt.fct.unl.novalincs.useme.sirius.design/description/UseMe.odesign#//@ownedViewpoints[name='goalModeling']/@ownedRepresentations[name='UsabilityGoalModel']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_R28uGusnEeejUbe_gD0PjQ"/>
