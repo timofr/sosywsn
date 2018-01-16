@@ -10,8 +10,8 @@
       <userProfile name="Domain Expert" priority="Medium" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0" subProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.6"/>
       <userProfile name="End User" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0" subProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.5 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.6" classifier="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.1"/>
       <userProfile name="Expert Evaluator" priority="Low" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.0"/>
-      <userProfile name="Student" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.1"/>
-      <userProfile name="Expert" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.2"/>
+      <userProfile name="Student" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.1" participant="//@evaluationSpecification.0/@participant.0"/>
+      <userProfile name="Expert" parent="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.2" participant="//@evaluationSpecification.0/@participant.1"/>
       <profileTemplate name="bdStakeholder" category="Background Demographics" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.0 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.2"/>
       <profileTemplate name="bdEndUser" category="Background Demographics" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.1 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.2"/>
       <profileTemplate name="bkEndUser" category="Background Knowledge" classifiers="//@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.3 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.4 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.5 //@contextSpecification.0/@userProfileSpecification.0/@logicalExpression.6"/>
@@ -90,25 +90,31 @@
     </enviromentSpecification>
     <workflowSpecification name="wsWSN-Control">
       <workflow name="W1: Configure a wireless sensor network" actor="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3" contextElement="//@contextSpecification.0/@enviromentSpecification.0/@enviromentalVariable.2" contextModel="//@contextSpecification.0/@contextModel.0">
-        <scenario name="Build an initial network"/>
-        <scenario name="Validate network"/>
+        <scenario name="Build an initial network" doc="//@evaluationSpecification.0/@documentaton.0"/>
+        <scenario name="Validate network" doc="//@evaluationSpecification.0/@documentaton.1"/>
       </workflow>
       <workflow name="W2: Software Maintenance" actor="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.1 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.2">
-        <scenario name="Examine the correctness of the programm"/>
-        <scenario name="Improve usability of the software"/>
+        <scenario name="Examine the correctness of the programm" doc="//@evaluationSpecification.0/@documentaton.2"/>
+        <scenario name="Improve usability of the software" doc="//@evaluationSpecification.0/@documentaton.3"/>
       </workflow>
     </workflowSpecification>
   </contextSpecification>
   <goalSpecification name="gsWSN-Control">
+    <usabilityRequirement name="Satisfaction" description="The satisfaction of the end user configurating a wsn">
+      <metric>Satisfaction questions about the configuared wsn</metric>
+    </usabilityRequirement>
+    <usabilityRequirement name="Programm correctness" description="The correctness of the programm is granted.">
+      <metric>Functions of the programm are working correctly</metric>
+    </usabilityRequirement>
     <method name="Configuration of a wsn is usable" methodDescription="Configuration of a wsn with WSN-Control is usable for the end user." usabilityGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.1 //@goalSpecification.0/@goalModel.0/@usabilityGoal.11" testCase="//@contextSpecification.0/@workflowSpecification.0/@workflow.0/@scenario.0 //@contextSpecification.0/@workflowSpecification.0/@workflow.0/@scenario.1" functionalGoal="//@utilitySpecification.0/@functionalGoal.0"/>
-    <method name="Programm maintenance is correct" methodDescription="WSN-Control is always working correct" usabilityGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.2 //@goalSpecification.0/@goalModel.0/@usabilityGoal.3 //@goalSpecification.0/@goalModel.0/@usabilityGoal.4 //@goalSpecification.0/@goalModel.0/@usabilityGoal.5 //@goalSpecification.0/@goalModel.0/@usabilityGoal.6 //@goalSpecification.0/@goalModel.0/@usabilityGoal.7 //@goalSpecification.0/@goalModel.0/@usabilityGoal.8 //@goalSpecification.0/@goalModel.0/@usabilityGoal.9 //@goalSpecification.0/@goalModel.0/@usabilityGoal.10" testCase="//@contextSpecification.0/@workflowSpecification.0/@workflow.1/@scenario.0 //@contextSpecification.0/@workflowSpecification.0/@workflow.1/@scenario.1"/>
+    <method name="Programm maintenance is correct" methodDescription="WSN-Control is always working correct" usabilityGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.2 //@goalSpecification.0/@goalModel.0/@usabilityGoal.3 //@goalSpecification.0/@goalModel.0/@usabilityGoal.4 //@goalSpecification.0/@goalModel.0/@usabilityGoal.5 //@goalSpecification.0/@goalModel.0/@usabilityGoal.6 //@goalSpecification.0/@goalModel.0/@usabilityGoal.7 //@goalSpecification.0/@goalModel.0/@usabilityGoal.8 //@goalSpecification.0/@goalModel.0/@usabilityGoal.9 //@goalSpecification.0/@goalModel.0/@usabilityGoal.10" testCase="//@contextSpecification.0/@workflowSpecification.0/@workflow.1/@scenario.0 //@contextSpecification.0/@workflowSpecification.0/@workflow.1/@scenario.1" usabilityRequirement="//@goalSpecification.0/@usabilityRequirement.1"/>
     <actor name="WSN-Control developer" organization="" responsibleFor="//@goalSpecification.0/@goalModel.0/@usabilityGoal.0 //@goalSpecification.0/@goalModel.0/@usabilityGoal.1 //@goalSpecification.0/@goalModel.0/@usabilityGoal.2 //@goalSpecification.0/@goalModel.0/@usabilityGoal.3 //@goalSpecification.0/@goalModel.0/@usabilityGoal.4 //@goalSpecification.0/@goalModel.0/@usabilityGoal.5 //@goalSpecification.0/@goalModel.0/@usabilityGoal.6 //@goalSpecification.0/@goalModel.0/@usabilityGoal.7 //@goalSpecification.0/@goalModel.0/@usabilityGoal.8 //@goalSpecification.0/@goalModel.0/@usabilityGoal.9 //@goalSpecification.0/@goalModel.0/@usabilityGoal.10" stakeholder="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.5"/>
     <actor name="WSN expert" responsibleFor="//@goalSpecification.0/@goalModel.0/@usabilityGoal.0 //@goalSpecification.0/@goalModel.0/@usabilityGoal.1 //@goalSpecification.0/@goalModel.0/@usabilityGoal.2 //@goalSpecification.0/@goalModel.0/@usabilityGoal.3 //@goalSpecification.0/@goalModel.0/@usabilityGoal.4 //@goalSpecification.0/@goalModel.0/@usabilityGoal.5 //@goalSpecification.0/@goalModel.0/@usabilityGoal.6 //@goalSpecification.0/@goalModel.0/@usabilityGoal.7 //@goalSpecification.0/@goalModel.0/@usabilityGoal.8 //@goalSpecification.0/@goalModel.0/@usabilityGoal.9 //@goalSpecification.0/@goalModel.0/@usabilityGoal.10 //@goalSpecification.0/@goalModel.0/@usabilityGoal.11" stakeholder="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.6"/>
     <actor name="Language evaluator" responsibleFor="//@goalSpecification.0/@goalModel.0/@usabilityGoal.1 //@goalSpecification.0/@goalModel.0/@usabilityGoal.11" stakeholder="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.4"/>
     <scope name="all" contextModel="//@contextSpecification.0/@contextModel.0" usabilityGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
     <scope name="Workflow1 specification" contextModel="//@contextSpecification.0/@contextModel.0" usabilityGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.1 //@goalSpecification.0/@goalModel.0/@usabilityGoal.11" userProfileSelection="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.3" workflow="//@contextSpecification.0/@workflowSpecification.0/@workflow.0"/>
     <scope name="Workflow2 specification" contextModel="//@contextSpecification.0/@contextModel.0" usabilityGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.3 //@goalSpecification.0/@goalModel.0/@usabilityGoal.2 //@goalSpecification.0/@goalModel.0/@usabilityGoal.4 //@goalSpecification.0/@goalModel.0/@usabilityGoal.5 //@goalSpecification.0/@goalModel.0/@usabilityGoal.6 //@goalSpecification.0/@goalModel.0/@usabilityGoal.7 //@goalSpecification.0/@goalModel.0/@usabilityGoal.8 //@goalSpecification.0/@goalModel.0/@usabilityGoal.9 //@goalSpecification.0/@goalModel.0/@usabilityGoal.10" userProfileSelection="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.1 //@contextSpecification.0/@userProfileSpecification.0/@userProfile.2" workflow="//@contextSpecification.0/@workflowSpecification.0/@workflow.1"/>
-    <goalModel name="" language="//@utilitySpecification.0/@DSL.0">
+    <goalModel name="gmWSN-Control" language="//@utilitySpecification.0/@DSL.0">
       <usabilityGoal name="Quality of WSN-Control" responsibleActor="//@goalSpecification.0/@actor.1 //@goalSpecification.0/@actor.0" question="Is the generall quality of WSN-Control achieved?" scope="//@goalSpecification.0/@scope.0" subGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.1 //@goalSpecification.0/@goalModel.0/@usabilityGoal.2"/>
       <usabilityGoal responsibleActor="//@goalSpecification.0/@actor.2 //@goalSpecification.0/@actor.1 //@goalSpecification.0/@actor.0" question="Is quality in use of WSN-Control achived?" method="//@goalSpecification.0/@method.0" scope="//@goalSpecification.0/@scope.1" subGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.11" parentGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
       <usabilityGoal name="Programm correctness" responsibleActor="//@goalSpecification.0/@actor.0 //@goalSpecification.0/@actor.1" question="Is the correctness of WSN-Control achieved?" method="//@goalSpecification.0/@method.1" scope="//@goalSpecification.0/@scope.2" subGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.3 //@goalSpecification.0/@goalModel.0/@usabilityGoal.4" parentGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.0"/>
@@ -123,12 +129,26 @@
       <usabilityGoal name="QiU_G1: Build  and validate network" responsibleActor="//@goalSpecification.0/@actor.2 //@goalSpecification.0/@actor.1" question="Is WSN-Control usable for the end user to build and validate a wsn?" method="//@goalSpecification.0/@method.0" providedFunctionality="//@utilitySpecification.0/@functionalGoal.0" scope="//@goalSpecification.0/@scope.1" parentGoal="//@goalSpecification.0/@goalModel.0/@usabilityGoal.1"/>
     </goalModel>
   </goalSpecification>
-  <evaluationSpecification/>
+  <evaluationSpecification>
+    <evaluationModel name="emWSN-Control" evaluationGoal="//@evaluationSpecification.0/@evaluationGoal.1" language="//@evaluationSpecification.0/@language.0" process="//@evaluationSpecification.0/@process.0" doc="//@evaluationSpecification.0/@documentaton.3 //@evaluationSpecification.0/@documentaton.2 //@evaluationSpecification.0/@documentaton.1 //@evaluationSpecification.0/@documentaton.0" participant="//@evaluationSpecification.0/@participant.1 //@evaluationSpecification.0/@participant.0"/>
+    <evaluationGoal name="g1WSN-ControlSatisfaction" mesurment="//@goalSpecification.0/@method.0"/>
+    <evaluationGoal name="g2WSN-ControlProgrammCorrectness" evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" mesurment="//@goalSpecification.0/@method.1" problemDescription=""/>
+    <participant name="T.Freitag" evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" userProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.5"/>
+    <participant name="G.Kulscar" evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" userProfile="//@contextSpecification.0/@userProfileSpecification.0/@userProfile.6"/>
+    <documentaton evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" scenario="//@contextSpecification.0/@workflowSpecification.0/@workflow.0/@scenario.0" name="Exercise1: Build an initial network"/>
+    <documentaton evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" scenario="//@contextSpecification.0/@workflowSpecification.0/@workflow.0/@scenario.1" name="Exercise2: Validate network"/>
+    <documentaton evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" scenario="//@contextSpecification.0/@workflowSpecification.0/@workflow.1/@scenario.0" name="Exercise3: Examine the correctness of the programm"/>
+    <documentaton evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" scenario="//@contextSpecification.0/@workflowSpecification.0/@workflow.1/@scenario.1" name="Exercise4: Improve usability of the software"/>
+    <language name="WSN-Control" version="0.1" evaluationModel="//@evaluationSpecification.0/@evaluationModel.0" DSL="//@utilitySpecification.0/@DSL.0"/>
+    <evaluationContext/>
+    <process evaluationModel="//@evaluationSpecification.0/@evaluationModel.0"/>
+    <testModel/>
+  </evaluationSpecification>
   <interactionSpecification/>
   <surveySpecification/>
   <reportSpecification/>
   <utilitySpecification>
-    <DSL dslName="WSN-Control" contextModel="//@contextSpecification.0/@contextModel.0"/>
+    <DSL dslName="WSN-Control" contextModel="//@contextSpecification.0/@contextModel.0" goalModel="//@goalSpecification.0/@goalModel.0" evaluationModel="//@evaluationSpecification.0/@evaluationModel.0"/>
     <functionalGoal name="F1: provide functionality to build an initial network and validate it"/>
   </utilitySpecification>
 </useme:UseMeSpecification>

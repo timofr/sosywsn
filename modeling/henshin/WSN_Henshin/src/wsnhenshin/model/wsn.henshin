@@ -303,14 +303,20 @@
           <type href="wsn.ecore#//UnderlayLink/classification"/>
         </attributes>
       </nodes>
-      <nodes xmi:id="_v7FGoPDmEeeOcI6JMyP8oA" incoming="_lhFXgPDnEeeOcI6JMyP8oA" outgoing="_lOhn4PDnEeeOcI6JMyP8oA">
+      <nodes xmi:id="_v7FGoPDmEeeOcI6JMyP8oA" incoming="_lhFXgPDnEeeOcI6JMyP8oA _l_LowPDnEeeOcI6JMyP8oA" outgoing="_lOhn4PDnEeeOcI6JMyP8oA _ky2_kPDnEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Node"/>
       </nodes>
-      <nodes xmi:id="_weCpwPDmEeeOcI6JMyP8oA" incoming="_nH6LYPDnEeeOcI6JMyP8oA" outgoing="_nbiSAPDnEeeOcI6JMyP8oA">
+      <nodes xmi:id="_weCpwPDmEeeOcI6JMyP8oA" incoming="_nH6LYPDnEeeOcI6JMyP8oA _mx7UUPDnEeeOcI6JMyP8oA" outgoing="_nbiSAPDnEeeOcI6JMyP8oA _mbmfAPDnEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Node"/>
       </nodes>
       <nodes xmi:id="_xGzS4PDmEeeOcI6JMyP8oA" incoming="_nuYVgPDnEeeOcI6JMyP8oA _oskcEPDnEeeOcI6JMyP8oA" outgoing="_oHDUMPDnEeeOcI6JMyP8oA _ob0DQPDnEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_t1c24PDmEeeOcI6JMyP8oA" incoming="_ky2_kPDnEeeOcI6JMyP8oA _mbmfAPDnEeeOcI6JMyP8oA" outgoing="_l_LowPDnEeeOcI6JMyP8oA _mx7UUPDnEeeOcI6JMyP8oA">
+        <type href="wsn.ecore#//UnderlayLink"/>
+        <attributes xmi:id="_yY1igPDmEeeOcI6JMyP8oA" value="0">
+          <type href="wsn.ecore#//UnderlayLink/classification"/>
+        </attributes>
       </nodes>
       <edges xmi:id="_lOhn4PDnEeeOcI6JMyP8oA" source="_v7FGoPDmEeeOcI6JMyP8oA" target="_ubSH0PDmEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Node/link"/>
@@ -336,80 +342,18 @@
       <edges xmi:id="_oskcEPDnEeeOcI6JMyP8oA" source="_ubSH0PDmEeeOcI6JMyP8oA" target="_xGzS4PDmEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Link/node"/>
       </edges>
-      <formula xsi:type="henshin:Not" xmi:id="_qSZKYPDnEeeOcI6JMyP8oA">
-        <child xsi:type="henshin:NestedCondition" xmi:id="_qSZKYfDnEeeOcI6JMyP8oA">
-          <conclusion xmi:id="_qSZKYvDnEeeOcI6JMyP8oA">
-            <nodes xmi:id="_t1c24PDmEeeOcI6JMyP8oA" incoming="_ky2_kPDnEeeOcI6JMyP8oA _mbmfAPDnEeeOcI6JMyP8oA" outgoing="_l_LowPDnEeeOcI6JMyP8oA _mx7UUPDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//UnderlayLink"/>
-              <attributes xmi:id="_yY1igPDmEeeOcI6JMyP8oA" value="0">
-                <type href="wsn.ecore#//UnderlayLink/classification"/>
-              </attributes>
-            </nodes>
-            <nodes xmi:id="_qSZxc_DnEeeOcI6JMyP8oA" incoming="_qSaYg_DnEeeOcI6JMyP8oA _l_LowPDnEeeOcI6JMyP8oA" outgoing="_qSZxfvDnEeeOcI6JMyP8oA _ky2_kPDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node"/>
-            </nodes>
-            <nodes xmi:id="_qSZxdvDnEeeOcI6JMyP8oA" incoming="_qSaYivDnEeeOcI6JMyP8oA _mx7UUPDnEeeOcI6JMyP8oA" outgoing="_qSaYiPDnEeeOcI6JMyP8oA _mbmfAPDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node"/>
-            </nodes>
-            <nodes xmi:id="_qSZxe_DnEeeOcI6JMyP8oA" incoming="_qSZxfvDnEeeOcI6JMyP8oA _qSaYgvDnEeeOcI6JMyP8oA" outgoing="_qSaYg_DnEeeOcI6JMyP8oA _qSaYhPDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//UnderlayLink"/>
-              <attributes xmi:id="_qSZxfPDnEeeOcI6JMyP8oA" value="0">
-                <type href="wsn.ecore#//UnderlayLink/classification"/>
-              </attributes>
-            </nodes>
-            <nodes xmi:id="_qSaYgPDnEeeOcI6JMyP8oA" incoming="_qSaYhPDnEeeOcI6JMyP8oA _qSaYi_DnEeeOcI6JMyP8oA" outgoing="_qSaYgvDnEeeOcI6JMyP8oA _qSaYifDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node"/>
-            </nodes>
-            <nodes xmi:id="_qSaYhfDnEeeOcI6JMyP8oA" incoming="_qSaYiPDnEeeOcI6JMyP8oA _qSaYifDnEeeOcI6JMyP8oA" outgoing="_qSaYivDnEeeOcI6JMyP8oA _qSaYi_DnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//UnderlayLink"/>
-              <attributes xmi:id="_qSaYhvDnEeeOcI6JMyP8oA" value="2">
-                <type href="wsn.ecore#//UnderlayLink/classification"/>
-              </attributes>
-            </nodes>
-            <edges xmi:id="_qSZxfvDnEeeOcI6JMyP8oA" source="_qSZxc_DnEeeOcI6JMyP8oA" target="_qSZxe_DnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node/link"/>
-            </edges>
-            <edges xmi:id="_qSaYgvDnEeeOcI6JMyP8oA" source="_qSaYgPDnEeeOcI6JMyP8oA" target="_qSZxe_DnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node/link"/>
-            </edges>
-            <edges xmi:id="_qSaYg_DnEeeOcI6JMyP8oA" source="_qSZxe_DnEeeOcI6JMyP8oA" target="_qSZxc_DnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Link/node"/>
-            </edges>
-            <edges xmi:id="_qSaYhPDnEeeOcI6JMyP8oA" source="_qSZxe_DnEeeOcI6JMyP8oA" target="_qSaYgPDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Link/node"/>
-            </edges>
-            <edges xmi:id="_qSaYiPDnEeeOcI6JMyP8oA" source="_qSZxdvDnEeeOcI6JMyP8oA" target="_qSaYhfDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node/link"/>
-            </edges>
-            <edges xmi:id="_qSaYifDnEeeOcI6JMyP8oA" source="_qSaYgPDnEeeOcI6JMyP8oA" target="_qSaYhfDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node/link"/>
-            </edges>
-            <edges xmi:id="_qSaYivDnEeeOcI6JMyP8oA" source="_qSaYhfDnEeeOcI6JMyP8oA" target="_qSZxdvDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Link/node"/>
-            </edges>
-            <edges xmi:id="_qSaYi_DnEeeOcI6JMyP8oA" source="_qSaYhfDnEeeOcI6JMyP8oA" target="_qSaYgPDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Link/node"/>
-            </edges>
-            <edges xmi:id="_ky2_kPDnEeeOcI6JMyP8oA" source="_qSZxc_DnEeeOcI6JMyP8oA" target="_t1c24PDmEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node/link"/>
-            </edges>
-            <edges xmi:id="_mbmfAPDnEeeOcI6JMyP8oA" source="_qSZxdvDnEeeOcI6JMyP8oA" target="_t1c24PDmEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Node/link"/>
-            </edges>
-            <edges xmi:id="_l_LowPDnEeeOcI6JMyP8oA" source="_t1c24PDmEeeOcI6JMyP8oA" target="_qSZxc_DnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Link/node"/>
-            </edges>
-            <edges xmi:id="_mx7UUPDnEeeOcI6JMyP8oA" source="_t1c24PDmEeeOcI6JMyP8oA" target="_qSZxdvDnEeeOcI6JMyP8oA">
-              <type href="wsn.ecore#//Link/node"/>
-            </edges>
-          </conclusion>
-          <mappings xmi:id="_qSZxdPDnEeeOcI6JMyP8oA" origin="_v7FGoPDmEeeOcI6JMyP8oA" image="_qSZxc_DnEeeOcI6JMyP8oA"/>
-          <mappings xmi:id="_qSZxd_DnEeeOcI6JMyP8oA" origin="_weCpwPDmEeeOcI6JMyP8oA" image="_qSZxdvDnEeeOcI6JMyP8oA"/>
-          <mappings xmi:id="_qSZxffDnEeeOcI6JMyP8oA" origin="_ubSH0PDmEeeOcI6JMyP8oA" image="_qSZxe_DnEeeOcI6JMyP8oA"/>
-          <mappings xmi:id="_qSaYgfDnEeeOcI6JMyP8oA" origin="_xGzS4PDmEeeOcI6JMyP8oA" image="_qSaYgPDnEeeOcI6JMyP8oA"/>
-          <mappings xmi:id="_qSaYh_DnEeeOcI6JMyP8oA" origin="_vKSi4PDmEeeOcI6JMyP8oA" image="_qSaYhfDnEeeOcI6JMyP8oA"/>
-        </child>
-      </formula>
+      <edges xmi:id="_ky2_kPDnEeeOcI6JMyP8oA" source="_v7FGoPDmEeeOcI6JMyP8oA" target="_t1c24PDmEeeOcI6JMyP8oA">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_mbmfAPDnEeeOcI6JMyP8oA" source="_weCpwPDmEeeOcI6JMyP8oA" target="_t1c24PDmEeeOcI6JMyP8oA">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_l_LowPDnEeeOcI6JMyP8oA" source="_t1c24PDmEeeOcI6JMyP8oA" target="_v7FGoPDmEeeOcI6JMyP8oA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_mx7UUPDnEeeOcI6JMyP8oA" source="_t1c24PDmEeeOcI6JMyP8oA" target="_weCpwPDmEeeOcI6JMyP8oA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
     </lhs>
     <rhs xmi:id="_nBfPwfDmEeeOcI6JMyP8oA" name="Rhs">
       <nodes xmi:id="_ubSH0fDmEeeOcI6JMyP8oA" incoming="_lOhn4fDnEeeOcI6JMyP8oA _ob0DQfDnEeeOcI6JMyP8oA" outgoing="_lhFXgfDnEeeOcI6JMyP8oA _oskcEfDnEeeOcI6JMyP8oA">
@@ -424,14 +368,20 @@
           <type href="wsn.ecore#//UnderlayLink/classification"/>
         </attributes>
       </nodes>
-      <nodes xmi:id="_v7FGofDmEeeOcI6JMyP8oA" incoming="_lhFXgfDnEeeOcI6JMyP8oA" outgoing="_lOhn4fDnEeeOcI6JMyP8oA">
+      <nodes xmi:id="_v7FGofDmEeeOcI6JMyP8oA" incoming="_lhFXgfDnEeeOcI6JMyP8oA _cWjzwvXsEeecSacWXkjzlw" outgoing="_lOhn4fDnEeeOcI6JMyP8oA _cWjzwPXsEeecSacWXkjzlw">
         <type href="wsn.ecore#//Node"/>
       </nodes>
-      <nodes xmi:id="_weCpwfDmEeeOcI6JMyP8oA" incoming="_nH6LYfDnEeeOcI6JMyP8oA" outgoing="_nbiSAfDnEeeOcI6JMyP8oA">
+      <nodes xmi:id="_weCpwfDmEeeOcI6JMyP8oA" incoming="_nH6LYfDnEeeOcI6JMyP8oA _cWjzw_XsEeecSacWXkjzlw" outgoing="_nbiSAfDnEeeOcI6JMyP8oA _cWjzwfXsEeecSacWXkjzlw">
         <type href="wsn.ecore#//Node"/>
       </nodes>
       <nodes xmi:id="_xGzS4fDmEeeOcI6JMyP8oA" incoming="_nuYVgfDnEeeOcI6JMyP8oA _oskcEfDnEeeOcI6JMyP8oA" outgoing="_oHDUMfDnEeeOcI6JMyP8oA _ob0DQfDnEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_cWe7QPXsEeecSacWXkjzlw" incoming="_cWjzwPXsEeecSacWXkjzlw _cWjzwfXsEeecSacWXkjzlw" outgoing="_cWjzwvXsEeecSacWXkjzlw _cWjzw_XsEeecSacWXkjzlw">
+        <type href="wsn.ecore#//UnderlayLink"/>
+        <attributes xmi:id="_cWe7QfXsEeecSacWXkjzlw" value="0">
+          <type href="wsn.ecore#//UnderlayLink/classification"/>
+        </attributes>
       </nodes>
       <edges xmi:id="_lOhn4fDnEeeOcI6JMyP8oA" source="_v7FGofDmEeeOcI6JMyP8oA" target="_ubSH0fDmEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Node/link"/>
@@ -457,12 +407,25 @@
       <edges xmi:id="_oskcEfDnEeeOcI6JMyP8oA" source="_ubSH0fDmEeeOcI6JMyP8oA" target="_xGzS4fDmEeeOcI6JMyP8oA">
         <type href="wsn.ecore#//Link/node"/>
       </edges>
+      <edges xmi:id="_cWjzwPXsEeecSacWXkjzlw" source="_v7FGofDmEeeOcI6JMyP8oA" target="_cWe7QPXsEeecSacWXkjzlw">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_cWjzwfXsEeecSacWXkjzlw" source="_weCpwfDmEeeOcI6JMyP8oA" target="_cWe7QPXsEeecSacWXkjzlw">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_cWjzwvXsEeecSacWXkjzlw" source="_cWe7QPXsEeecSacWXkjzlw" target="_v7FGofDmEeeOcI6JMyP8oA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_cWjzw_XsEeecSacWXkjzlw" source="_cWe7QPXsEeecSacWXkjzlw" target="_weCpwfDmEeeOcI6JMyP8oA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
     </rhs>
     <mappings xmi:id="_ubSH0vDmEeeOcI6JMyP8oA" origin="_ubSH0PDmEeeOcI6JMyP8oA" image="_ubSH0fDmEeeOcI6JMyP8oA"/>
     <mappings xmi:id="_vKTJ8PDmEeeOcI6JMyP8oA" origin="_vKSi4PDmEeeOcI6JMyP8oA" image="_vKSi4fDmEeeOcI6JMyP8oA"/>
     <mappings xmi:id="_v7FtsPDmEeeOcI6JMyP8oA" origin="_v7FGoPDmEeeOcI6JMyP8oA" image="_v7FGofDmEeeOcI6JMyP8oA"/>
     <mappings xmi:id="_weCpwvDmEeeOcI6JMyP8oA" origin="_weCpwPDmEeeOcI6JMyP8oA" image="_weCpwfDmEeeOcI6JMyP8oA"/>
     <mappings xmi:id="_xGzS4vDmEeeOcI6JMyP8oA" origin="_xGzS4PDmEeeOcI6JMyP8oA" image="_xGzS4fDmEeeOcI6JMyP8oA"/>
+    <mappings xmi:id="_cWe7QvXsEeecSacWXkjzlw" origin="_t1c24PDmEeeOcI6JMyP8oA" image="_cWe7QPXsEeecSacWXkjzlw"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_6SawEPD1Eee7JufKuR5ysw" name="deleteEdge">
     <parameters xmi:id="_O7XxEPD2Eee7JufKuR5ysw" name="x1" kind="VAR">
@@ -496,8 +459,11 @@
           <type href="wsn.ecore#//Node/y"/>
         </attributes>
       </nodes>
-      <nodes xmi:id="_aH6iAPD2Eee7JufKuR5ysw" incoming="_ceZ4QPD2Eee7JufKuR5ysw _dJ_L4PD2Eee7JufKuR5ysw" outgoing="_c579sPD2Eee7JufKuR5ysw _dZQ-APD2Eee7JufKuR5ysw">
+      <nodes xmi:id="_aH6iAPD2Eee7JufKuR5ysw" incoming="_ceZ4QPD2Eee7JufKuR5ysw _dJ_L4PD2Eee7JufKuR5ysw _vtbsYPXtEeecSacWXkjzlw" outgoing="_c579sPD2Eee7JufKuR5ysw _dZQ-APD2Eee7JufKuR5ysw">
         <type href="wsn.ecore#//UnderlayLink"/>
+      </nodes>
+      <nodes xmi:id="_rzveAPXtEeecSacWXkjzlw" outgoing="_vtbsYPXtEeecSacWXkjzlw">
+        <type href="wsn.ecore#//UnderlayNetwork"/>
       </nodes>
       <edges xmi:id="_ceZ4QPD2Eee7JufKuR5ysw" source="_ZcmUIPD2Eee7JufKuR5ysw" target="_aH6iAPD2Eee7JufKuR5ysw">
         <type href="wsn.ecore#//Node/link"/>
@@ -510,6 +476,9 @@
       </edges>
       <edges xmi:id="_dZQ-APD2Eee7JufKuR5ysw" source="_aH6iAPD2Eee7JufKuR5ysw" target="_ZwbPEPD2Eee7JufKuR5ysw">
         <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_vtbsYPXtEeecSacWXkjzlw" source="_rzveAPXtEeecSacWXkjzlw" target="_aH6iAPD2Eee7JufKuR5ysw">
+        <type href="wsn.ecore#//UnderlayNetwork/underlaylink"/>
       </edges>
     </lhs>
     <rhs xmi:id="_6SrOwPD1Eee7JufKuR5ysw" name="Rhs">
@@ -531,13 +500,19 @@
           <type href="wsn.ecore#//Node/y"/>
         </attributes>
       </nodes>
+      <nodes xmi:id="_uMOYUPXtEeecSacWXkjzlw">
+        <type href="wsn.ecore#//UnderlayNetwork"/>
+      </nodes>
     </rhs>
     <attributeConditions xmi:id="_fK-MMPD2Eee7JufKuR5ysw" name="Above a specific range" conditionText="(x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) > 100"/>
     <mappings xmi:id="_ZcniQfD2Eee7JufKuR5ysw" origin="_ZcmUIPD2Eee7JufKuR5ysw" image="_ZcniQPD2Eee7JufKuR5ysw"/>
     <mappings xmi:id="_ZwbPEvD2Eee7JufKuR5ysw" origin="_ZwbPEPD2Eee7JufKuR5ysw" image="_ZwbPEfD2Eee7JufKuR5ysw"/>
+    <mappings xmi:id="_uMOYUfXtEeecSacWXkjzlw" origin="_rzveAPXtEeecSacWXkjzlw" image="_uMOYUPXtEeecSacWXkjzlw"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="__2EJYPD2Eee7JufKuR5ysw" name="unclassify">
-    <parameters xmi:id="_i_QHYPD8Eee7JufKuR5ysw" name="oldClassification" kind="VAR"/>
+    <parameters xmi:id="_i_QHYPD8Eee7JufKuR5ysw" name="oldClassification" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
     <lhs xmi:id="__2F-kPD2Eee7JufKuR5ysw" name="Lhs">
       <nodes xmi:id="_DBDesPD3Eee7JufKuR5ysw" incoming="_YZe4APD7Eee7JufKuR5ysw" outgoing="_YKVowPD7Eee7JufKuR5ysw">
         <type href="wsn.ecore#//Node"/>
@@ -606,11 +581,8 @@
           <type href="wsn.ecore#//Node/id"/>
         </attributes>
       </nodes>
-      <nodes xmi:id="_9xOokPFeEeembL5FuVkoNw" outgoing="_KmZkMPFfEeembL5FuVkoNw _TCUyMPFgEeembL5FuVkoNw _grjoAPFgEeembL5FuVkoNw _LzUCoPG0EeebWNjB_o922w">
+      <nodes xmi:id="_9xOokPFeEeembL5FuVkoNw" outgoing="_TCUyMPFgEeembL5FuVkoNw _grjoAPFgEeembL5FuVkoNw _LzUCoPG0EeebWNjB_o922w">
         <type href="wsn.ecore#//WirelessSensorNetwork"/>
-      </nodes>
-      <nodes xmi:id="_GvY2YPFfEeembL5FuVkoNw" incoming="_KmZkMPFfEeembL5FuVkoNw">
-        <type href="wsn.ecore#//Node"/>
       </nodes>
       <nodes xmi:id="_R8-6wPFgEeembL5FuVkoNw" incoming="_TCUyMPFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//UnderlayNetwork"/>
@@ -618,9 +590,6 @@
       <nodes xmi:id="_btt1APFgEeembL5FuVkoNw" incoming="_grjoAPFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//OverlayNetwork"/>
       </nodes>
-      <edges xmi:id="_KmZkMPFfEeembL5FuVkoNw" source="_9xOokPFeEeembL5FuVkoNw" target="_GvY2YPFfEeembL5FuVkoNw">
-        <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
-      </edges>
       <edges xmi:id="_TCUyMPFgEeembL5FuVkoNw" source="_9xOokPFeEeembL5FuVkoNw" target="_R8-6wPFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//WirelessSensorNetwork/underlaynetwork"/>
       </edges>
@@ -632,11 +601,8 @@
       </edges>
     </lhs>
     <rhs xmi:id="_yQ2VofFeEeembL5FuVkoNw" name="Rhs">
-      <nodes xmi:id="_9xOokfFeEeembL5FuVkoNw" outgoing="_KmZkMfFfEeembL5FuVkoNw _TCUyMfFgEeembL5FuVkoNw _grjoAfFgEeembL5FuVkoNw">
+      <nodes xmi:id="_9xOokfFeEeembL5FuVkoNw" outgoing="_TCUyMfFgEeembL5FuVkoNw _grjoAfFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//WirelessSensorNetwork"/>
-      </nodes>
-      <nodes xmi:id="_Ien_YPFfEeembL5FuVkoNw" incoming="_KmZkMfFfEeembL5FuVkoNw">
-        <type href="wsn.ecore#//Node"/>
       </nodes>
       <nodes xmi:id="_R8-6wfFgEeembL5FuVkoNw" incoming="_TCUyMfFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//UnderlayNetwork"/>
@@ -644,9 +610,6 @@
       <nodes xmi:id="_btt1AfFgEeembL5FuVkoNw" incoming="_grjoAfFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//OverlayNetwork"/>
       </nodes>
-      <edges xmi:id="_KmZkMfFfEeembL5FuVkoNw" source="_9xOokfFeEeembL5FuVkoNw" target="_Ien_YPFfEeembL5FuVkoNw">
-        <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
-      </edges>
       <edges xmi:id="_TCUyMfFgEeembL5FuVkoNw" source="_9xOokfFeEeembL5FuVkoNw" target="_R8-6wfFgEeembL5FuVkoNw">
         <type href="wsn.ecore#//WirelessSensorNetwork/underlaynetwork"/>
       </edges>
@@ -655,7 +618,6 @@
       </edges>
     </rhs>
     <mappings xmi:id="_9xOokvFeEeembL5FuVkoNw" origin="_9xOokPFeEeembL5FuVkoNw" image="_9xOokfFeEeembL5FuVkoNw"/>
-    <mappings xmi:id="_Ien_YfFfEeembL5FuVkoNw" origin="_GvY2YPFfEeembL5FuVkoNw" image="_Ien_YPFfEeembL5FuVkoNw"/>
     <mappings xmi:id="_R8-6wvFgEeembL5FuVkoNw" origin="_R8-6wPFgEeembL5FuVkoNw" image="_R8-6wfFgEeembL5FuVkoNw"/>
     <mappings xmi:id="_btt1AvFgEeembL5FuVkoNw" origin="_btt1APFgEeembL5FuVkoNw" image="_btt1AfFgEeembL5FuVkoNw"/>
     <multiRules xmi:id="_Fs_lQPFfEeembL5FuVkoNw">
@@ -666,13 +628,13 @@
         <nodes xmi:id="_FtAMUvFfEeembL5FuVkoNw" incoming="_Jm1koPFfEeembL5FuVkoNw _k2CrcPFgEeembL5FuVkoNw _LzV30PG0EeebWNjB_o922w" outgoing="_pRA3YPFfEeembL5FuVkoNw _kltwcPFgEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node"/>
         </nodes>
-        <nodes xmi:id="_FtAzYvFfEeembL5FuVkoNw" outgoing="_pRBecvFfEeembL5FuVkoNw _TCUyM_FgEeembL5FuVkoNw _grjoA_FgEeembL5FuVkoNw _LzV30PG0EeebWNjB_o922w">
+        <nodes xmi:id="_FtAzYvFfEeembL5FuVkoNw" outgoing="_TCUyM_FgEeembL5FuVkoNw _grjoA_FgEeembL5FuVkoNw _LzV30PG0EeebWNjB_o922w _KmZkMPFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//WirelessSensorNetwork"/>
         </nodes>
         <nodes xmi:id="_mWQ9gPFfEeembL5FuVkoNw" incoming="_pRA3YPFfEeembL5FuVkoNw _p2ZcYPFfEeembL5FuVkoNw _TWsfsPFgEeembL5FuVkoNw" outgoing="_JCAZQPFfEeembL5FuVkoNw _Jm1koPFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//UnderlayLink"/>
         </nodes>
-        <nodes xmi:id="_pRBecPFfEeembL5FuVkoNw" incoming="_pRBecvFfEeembL5FuVkoNw _JCAZQPFfEeembL5FuVkoNw _lLv1sPFgEeembL5FuVkoNw" outgoing="_p2ZcYPFfEeembL5FuVkoNw _lr-08PFgEeembL5FuVkoNw">
+        <nodes xmi:id="_GvY2YPFfEeembL5FuVkoNw" incoming="_KmZkMPFfEeembL5FuVkoNw _JCAZQPFfEeembL5FuVkoNw _lLv1sPFgEeembL5FuVkoNw" outgoing="_p2ZcYPFfEeembL5FuVkoNw _lr-08PFgEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node"/>
         </nodes>
         <nodes xmi:id="_R8-6xfFgEeembL5FuVkoNw" incoming="_TCUyM_FgEeembL5FuVkoNw" outgoing="_TWsfsPFgEeembL5FuVkoNw">
@@ -687,16 +649,13 @@
         <edges xmi:id="_Jm1koPFfEeembL5FuVkoNw" source="_mWQ9gPFfEeembL5FuVkoNw" target="_FtAMUvFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Link/node"/>
         </edges>
-        <edges xmi:id="_pRBecvFfEeembL5FuVkoNw" source="_FtAzYvFfEeembL5FuVkoNw" target="_pRBecPFfEeembL5FuVkoNw">
-          <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
-        </edges>
         <edges xmi:id="_pRA3YPFfEeembL5FuVkoNw" source="_FtAMUvFfEeembL5FuVkoNw" target="_mWQ9gPFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node/link"/>
         </edges>
-        <edges xmi:id="_p2ZcYPFfEeembL5FuVkoNw" source="_pRBecPFfEeembL5FuVkoNw" target="_mWQ9gPFfEeembL5FuVkoNw">
+        <edges xmi:id="_p2ZcYPFfEeembL5FuVkoNw" source="_GvY2YPFfEeembL5FuVkoNw" target="_mWQ9gPFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node/link"/>
         </edges>
-        <edges xmi:id="_JCAZQPFfEeembL5FuVkoNw" source="_mWQ9gPFfEeembL5FuVkoNw" target="_pRBecPFfEeembL5FuVkoNw">
+        <edges xmi:id="_JCAZQPFfEeembL5FuVkoNw" source="_mWQ9gPFfEeembL5FuVkoNw" target="_GvY2YPFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Link/node"/>
         </edges>
         <edges xmi:id="_TCUyM_FgEeembL5FuVkoNw" source="_FtAzYvFfEeembL5FuVkoNw" target="_R8-6xfFgEeembL5FuVkoNw">
@@ -717,21 +676,24 @@
         <edges xmi:id="_k2CrcPFgEeembL5FuVkoNw" source="_a57noPFgEeembL5FuVkoNw" target="_FtAMUvFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Link/node"/>
         </edges>
-        <edges xmi:id="_lLv1sPFgEeembL5FuVkoNw" source="_a57noPFgEeembL5FuVkoNw" target="_pRBecPFfEeembL5FuVkoNw">
+        <edges xmi:id="_lLv1sPFgEeembL5FuVkoNw" source="_a57noPFgEeembL5FuVkoNw" target="_GvY2YPFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Link/node"/>
         </edges>
-        <edges xmi:id="_lr-08PFgEeembL5FuVkoNw" source="_pRBecPFfEeembL5FuVkoNw" target="_a57noPFgEeembL5FuVkoNw">
+        <edges xmi:id="_lr-08PFgEeembL5FuVkoNw" source="_GvY2YPFfEeembL5FuVkoNw" target="_a57noPFgEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node/link"/>
         </edges>
         <edges xmi:id="_LzV30PG0EeebWNjB_o922w" source="_FtAzYvFfEeembL5FuVkoNw" target="_FtAMUvFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
         </edges>
+        <edges xmi:id="_KmZkMPFfEeembL5FuVkoNw" source="_FtAzYvFfEeembL5FuVkoNw" target="_GvY2YPFfEeembL5FuVkoNw">
+          <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
+        </edges>
       </lhs>
       <rhs xmi:id="_FtAMUfFfEeembL5FuVkoNw" name="Rhs">
-        <nodes xmi:id="_FtAzYPFfEeembL5FuVkoNw" outgoing="_pRA3ZPFfEeembL5FuVkoNw _TCUyMvFgEeembL5FuVkoNw _grjoAvFgEeembL5FuVkoNw">
+        <nodes xmi:id="_FtAzYPFfEeembL5FuVkoNw" outgoing="_TCUyMvFgEeembL5FuVkoNw _grjoAvFgEeembL5FuVkoNw _KmZkMfFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//WirelessSensorNetwork"/>
         </nodes>
-        <nodes xmi:id="_pRA3YvFfEeembL5FuVkoNw" incoming="_pRA3ZPFfEeembL5FuVkoNw">
+        <nodes xmi:id="_Ien_YPFfEeembL5FuVkoNw" incoming="_KmZkMfFfEeembL5FuVkoNw">
           <type href="wsn.ecore#//Node"/>
         </nodes>
         <nodes xmi:id="_R8-6w_FgEeembL5FuVkoNw" incoming="_TCUyMvFgEeembL5FuVkoNw">
@@ -740,25 +702,23 @@
         <nodes xmi:id="_btt1A_FgEeembL5FuVkoNw" incoming="_grjoAvFgEeembL5FuVkoNw">
           <type href="wsn.ecore#//OverlayNetwork"/>
         </nodes>
-        <edges xmi:id="_pRA3ZPFfEeembL5FuVkoNw" source="_FtAzYPFfEeembL5FuVkoNw" target="_pRA3YvFfEeembL5FuVkoNw">
-          <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
-        </edges>
         <edges xmi:id="_TCUyMvFgEeembL5FuVkoNw" source="_FtAzYPFfEeembL5FuVkoNw" target="_R8-6w_FgEeembL5FuVkoNw">
           <type href="wsn.ecore#//WirelessSensorNetwork/underlaynetwork"/>
         </edges>
         <edges xmi:id="_grjoAvFgEeembL5FuVkoNw" source="_FtAzYPFfEeembL5FuVkoNw" target="_btt1A_FgEeembL5FuVkoNw">
           <type href="wsn.ecore#//WirelessSensorNetwork/overlaynetwork"/>
         </edges>
+        <edges xmi:id="_KmZkMfFfEeembL5FuVkoNw" source="_FtAzYPFfEeembL5FuVkoNw" target="_Ien_YPFfEeembL5FuVkoNw">
+          <type href="wsn.ecore#//WirelessSensorNetwork/node"/>
+        </edges>
       </rhs>
       <mappings xmi:id="_FtAzZPFfEeembL5FuVkoNw" origin="_FtAzYvFfEeembL5FuVkoNw" image="_FtAzYPFfEeembL5FuVkoNw"/>
-      <mappings xmi:id="_pRBedPFfEeembL5FuVkoNw" origin="_pRBecPFfEeembL5FuVkoNw" image="_pRA3YvFfEeembL5FuVkoNw"/>
       <mappings xmi:id="_R8-6x_FgEeembL5FuVkoNw" origin="_R8-6xfFgEeembL5FuVkoNw" image="_R8-6w_FgEeembL5FuVkoNw"/>
       <mappings xmi:id="_btt1B_FgEeembL5FuVkoNw" origin="_btt1BfFgEeembL5FuVkoNw" image="_btt1A_FgEeembL5FuVkoNw"/>
+      <mappings xmi:id="_Ien_YfFfEeembL5FuVkoNw" origin="_GvY2YPFfEeembL5FuVkoNw" image="_Ien_YPFfEeembL5FuVkoNw"/>
       <multiMappings xmi:id="_FtAMU_FfEeembL5FuVkoNw" origin="_87f6cPFeEeembL5FuVkoNw" image="_FtAMUvFfEeembL5FuVkoNw"/>
       <multiMappings xmi:id="_FtAzYfFfEeembL5FuVkoNw" origin="_9xOokfFeEeembL5FuVkoNw" image="_FtAzYPFfEeembL5FuVkoNw"/>
       <multiMappings xmi:id="_FtAzY_FfEeembL5FuVkoNw" origin="_9xOokPFeEeembL5FuVkoNw" image="_FtAzYvFfEeembL5FuVkoNw"/>
-      <multiMappings xmi:id="_pRA3Y_FfEeembL5FuVkoNw" origin="_Ien_YPFfEeembL5FuVkoNw" image="_pRA3YvFfEeembL5FuVkoNw"/>
-      <multiMappings xmi:id="_pRBecfFfEeembL5FuVkoNw" origin="_GvY2YPFfEeembL5FuVkoNw" image="_pRBecPFfEeembL5FuVkoNw"/>
       <multiMappings xmi:id="_R8-6xPFgEeembL5FuVkoNw" origin="_R8-6wfFgEeembL5FuVkoNw" image="_R8-6w_FgEeembL5FuVkoNw"/>
       <multiMappings xmi:id="_R8-6xvFgEeembL5FuVkoNw" origin="_R8-6wPFgEeembL5FuVkoNw" image="_R8-6xfFgEeembL5FuVkoNw"/>
       <multiMappings xmi:id="_btt1BPFgEeembL5FuVkoNw" origin="_btt1AfFgEeembL5FuVkoNw" image="_btt1A_FgEeembL5FuVkoNw"/>
@@ -925,15 +885,13 @@
     <parameterMappings xmi:id="_lSJWoPPnEeeEtvVmvLmJjg" source="_H2Q5sPPiEeeEtvVmvLmJjg" target="_74WgwPPiEeeEtvVmvLmJjg"/>
     <parameterMappings xmi:id="_lSJWofPnEeeEtvVmvLmJjg" source="_74WgwPPiEeeEtvVmvLmJjg" target="_H2Q5sPPiEeeEtvVmvLmJjg"/>
   </units>
-  <units xsi:type="henshin:IteratedUnit" xmi:id="_EdRPgPPgEeeEtvVmvLmJjg" subUnit="_UOxN8O2AEeeYnbaygk-hsg" iterations="1"/>
   <units xsi:type="henshin:LoopUnit" xmi:id="_FqcNQPPgEeeEtvVmvLmJjg" name="checkEdges" subUnit="_J2jZoPPmEeeEtvVmvLmJjg">
     <parameters xmi:id="_RIXaYPPmEeeEtvVmvLmJjg" name="startId" kind="IN">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
-    <parameterMappings xmi:id="_VddV4PPnEeeEtvVmvLmJjg" source="_RIXaYPPmEeeEtvVmvLmJjg" target="_Tt9uMPPnEeeEtvVmvLmJjg"/>
-    <parameterMappings xmi:id="_VddV4fPnEeeEtvVmvLmJjg" source="_Tt9uMPPnEeeEtvVmvLmJjg" target="_RIXaYPPmEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_kZKmMPiHEeeYfZzO-yad8w" source="_RIXaYPPmEeeEtvVmvLmJjg" target="_Tt9uMPPnEeeEtvVmvLmJjg"/>
+    <parameterMappings xmi:id="_kZKmMfiHEeeYfZzO-yad8w" source="_Tt9uMPPnEeeEtvVmvLmJjg" target="_RIXaYPPmEeeEtvVmvLmJjg"/>
   </units>
-  <units xsi:type="henshin:PriorityUnit" xmi:id="_GslmwPPgEeeEtvVmvLmJjg"/>
   <units xsi:type="henshin:Rule" xmi:id="_uh22MPPhEeeEtvVmvLmJjg" name="setAllUnexplored">
     <parameters xmi:id="_3nGjcPPhEeeEtvVmvLmJjg" name="ex" kind="VAR"/>
     <lhs xmi:id="_uiOCkPPhEeeEtvVmvLmJjg" name="Lhs"/>
@@ -1001,6 +959,9 @@
     <parameters xmi:id="_dkGNMPPkEeeEtvVmvLmJjg" name="startId" kind="IN">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
+    <parameters xmi:id="_lO2ucPk_EeeFXeoJ4a8FhA" name="linkClassification" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
     <parameters xmi:id="_dkGNMfPkEeeEtvVmvLmJjg" name="endId" kind="OUT">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
@@ -1022,6 +983,9 @@
       </nodes>
       <nodes xmi:id="_fOSeIPPkEeeEtvVmvLmJjg" incoming="_g0qmEPPkEeeEtvVmvLmJjg _hLH-QPPkEeeEtvVmvLmJjg" outgoing="_hCCTsPPkEeeEtvVmvLmJjg _hYlLcPPkEeeEtvVmvLmJjg">
         <type href="wsn.ecore#//UnderlayLink"/>
+        <attributes xmi:id="_lzz1oPk_EeeFXeoJ4a8FhA" value="linkClassification">
+          <type href="wsn.ecore#//UnderlayLink/classification"/>
+        </attributes>
       </nodes>
       <edges xmi:id="_g0qmEPPkEeeEtvVmvLmJjg" source="_epH7kPPkEeeEtvVmvLmJjg" target="_fOSeIPPkEeeEtvVmvLmJjg">
         <type href="wsn.ecore#//Node/link"/>
@@ -1054,6 +1018,9 @@
       </nodes>
       <nodes xmi:id="_fOSeIfPkEeeEtvVmvLmJjg" incoming="_g0qmEfPkEeeEtvVmvLmJjg _hLIlUPPkEeeEtvVmvLmJjg" outgoing="_hCCTsfPkEeeEtvVmvLmJjg _hYlLcfPkEeeEtvVmvLmJjg">
         <type href="wsn.ecore#//UnderlayLink"/>
+        <attributes xmi:id="_lzz1ofk_EeeFXeoJ4a8FhA" value="linkClassification">
+          <type href="wsn.ecore#//UnderlayLink/classification"/>
+        </attributes>
       </nodes>
       <edges xmi:id="_g0qmEfPkEeeEtvVmvLmJjg" source="_epH7kfPkEeeEtvVmvLmJjg" target="_fOSeIfPkEeeEtvVmvLmJjg">
         <type href="wsn.ecore#//Node/link"/>

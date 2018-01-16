@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<WirelessSensorNetwork:WirelessSensorNetwork xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WirelessSensorNetwork="www.wirelesssensornetwork.com" xsi:schemaLocation="www.wirelesssensornetwork.com ../model/wsn.ecore">
+  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.1" id="1" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2 //@underlaynetwork/@underlaylink.3" id="2" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.1 //@underlaynetwork/@underlaylink.2" id="3" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.3 //@underlaynetwork/@underlaylink.4" id="4" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.4 //@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.6" id="5" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.7" id="6" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.6 //@underlaynetwork/@underlaylink.7" id="7" explored="true"/>
+  <node id="8"/>
+  <underlaynetwork>
+    <underlaylink node="//@node.0 //@node.1" id="12"/>
+    <underlaylink node="//@node.0 //@node.2" id="13"/>
+    <underlaylink node="//@node.1 //@node.2" id="23"/>
+    <underlaylink node="//@node.1 //@node.3" id="24"/>
+    <underlaylink node="//@node.3 //@node.4" id="45"/>
+    <underlaylink node="//@node.4 //@node.5" id="56"/>
+    <underlaylink node="//@node.4 //@node.6" id="57"/>
+    <underlaylink node="//@node.5 //@node.6" id="67"/>
+  </underlaynetwork>
+</WirelessSensorNetwork:WirelessSensorNetwork>
