@@ -152,5 +152,6 @@
   <utilitySpecification>
     <DSL dslName="WSN-Control" contextModel="//@contextSpecification.0/@contextModel.0" goalModel="//@goalSpecification.0/@goalModel.0" evaluationModel="//@evaluationSpecification.0/@evaluationModel.0"/>
     <functionalGoal name="F1: provide functionality to build an initial network and validate it"/>
+    <processModel/>
   </utilitySpecification>
 </useme:UseMeSpecification>

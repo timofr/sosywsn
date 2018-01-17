@@ -769,7 +769,7 @@
           <element xmi:type="henshin:Rule" href="wsn.henshin#_2XLFQPPkEeeEtvVmvLmJjg"/>
         </children>
         <element xmi:type="henshin:Rule" href="wsn.henshin#_2XLFQPPkEeeEtvVmvLmJjg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oQ1LkfsJEeeUsK_urA0Qww" x="254" y="106"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oQ1LkfsJEeeUsK_urA0Qww" x="234" y="106"/>
       </children>
     </children>
     <element xmi:type="henshin:SequentialUnit" href="wsn.henshin#__czmUPPfEeeEtvVmvLmJjg"/>
@@ -1043,7 +1043,7 @@
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="wsn.henshin#_qQrjcPsJEeeUsK_urA0Qww"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQsKgfsJEeeUsK_urA0Qww" x="412" y="2282" width="129" height="109"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQsKgfsJEeeUsK_urA0Qww" x="412" y="2282" width="181" height="109"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_JJzrse2AEeeYnbaygk-hsg"/>
   <element xmi:type="henshin:Module" href="wsn.henshin#_JJdtcO2AEeeYnbaygk-hsg"/>

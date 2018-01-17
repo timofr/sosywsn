@@ -972,7 +972,7 @@
       <mappings xmi:id="_xWAY0vPhEeeEtvVmvLmJjg" origin="_xWAY0PPhEeeEtvVmvLmJjg" image="_xWAY0fPhEeeEtvVmvLmJjg"/>
     </multiRules>
   </units>
-  <units xsi:type="henshin:SequentialUnit" xmi:id="_kcesMPPiEeeEtvVmvLmJjg" name="explore" subUnits="_qz6IUPPiEeeEtvVmvLmJjg _FqcNQPPgEeeEtvVmvLmJjg">
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_kcesMPPiEeeEtvVmvLmJjg" name="explore" subUnits="_qz6IUPPiEeeEtvVmvLmJjg _FqcNQPPgEeeEtvVmvLmJjg _kcesMPPiEeeEtvVmvLmJjg">
     <parameters xmi:id="_74WgwPPiEeeEtvVmvLmJjg" name="startId" kind="IN">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
