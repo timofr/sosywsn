@@ -1437,4 +1437,102 @@
     <parameterMappings xmi:id="_0MRiMv7gEeehArXz9ozErg" source="_xFbtEf7gEeehArXz9ozErg" target="_y-3ZEf7OEeeQA_JKuLO9ww"/>
     <parameterMappings xmi:id="_0MRiM_7gEeehArXz9ozErg" source="_y-3ZEf7OEeeQA_JKuLO9ww" target="_xFbtEf7gEeehArXz9ozErg"/>
   </units>
+  <units xsi:type="henshin:Rule" xmi:id="_zSnuoP7mEeeV2Jh1iG0BaA" name="activateSingle">
+    <lhs xmi:id="_zSvqcP7mEeeV2Jh1iG0BaA" name="Lhs">
+      <nodes xmi:id="_1rd1UP7mEeeV2Jh1iG0BaA" incoming="_3xyBkP7mEeeV2Jh1iG0BaA" outgoing="_3nNJQP7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2LziQP7mEeeV2Jh1iG0BaA" incoming="_3-uRYP7mEeeV2Jh1iG0BaA" outgoing="_4LC2IP7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2n950P7mEeeV2Jh1iG0BaA" incoming="_3nNJQP7mEeeV2Jh1iG0BaA _4LC2IP7mEeeV2Jh1iG0BaA" outgoing="_3xyBkP7mEeeV2Jh1iG0BaA _3-uRYP7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//UnderlayLink"/>
+        <attributes xmi:id="_4st_0P7mEeeV2Jh1iG0BaA" value="2">
+          <type href="wsn.ecore#//UnderlayLink/classification"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_3nNJQP7mEeeV2Jh1iG0BaA" source="_1rd1UP7mEeeV2Jh1iG0BaA" target="_2n950P7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_3xyBkP7mEeeV2Jh1iG0BaA" source="_2n950P7mEeeV2Jh1iG0BaA" target="_1rd1UP7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_3-uRYP7mEeeV2Jh1iG0BaA" source="_2n950P7mEeeV2Jh1iG0BaA" target="_2LziQP7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_4LC2IP7mEeeV2Jh1iG0BaA" source="_2LziQP7mEeeV2Jh1iG0BaA" target="_2n950P7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <formula xsi:type="henshin:Not" xmi:id="_7TemsP7mEeeV2Jh1iG0BaA">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_7Temsf7mEeeV2Jh1iG0BaA">
+          <conclusion xmi:id="_7Temsv7mEeeV2Jh1iG0BaA">
+            <nodes xmi:id="_7Tems_7mEeeV2Jh1iG0BaA" incoming="_7TemuP7mEeeV2Jh1iG0BaA" outgoing="_7Temuf7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//Node"/>
+            </nodes>
+            <nodes xmi:id="_7Temtf7mEeeV2Jh1iG0BaA" incoming="_7Temuf7mEeeV2Jh1iG0BaA _7Temvf7mEeeV2Jh1iG0BaA" outgoing="_7TemuP7mEeeV2Jh1iG0BaA _7TemvP7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//UnderlayLink"/>
+              <attributes xmi:id="_7Temtv7mEeeV2Jh1iG0BaA" value="2">
+                <type href="wsn.ecore#//UnderlayLink/classification"/>
+              </attributes>
+            </nodes>
+            <nodes xmi:id="_7Temuv7mEeeV2Jh1iG0BaA" incoming="_7TemvP7mEeeV2Jh1iG0BaA" outgoing="_7Temvf7mEeeV2Jh1iG0BaA _7qjC4P7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//Node"/>
+            </nodes>
+            <nodes xmi:id="_7Td_oP7mEeeV2Jh1iG0BaA" incoming="_7qjC4P7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//UnderlayLink"/>
+            </nodes>
+            <edges xmi:id="_7TemuP7mEeeV2Jh1iG0BaA" source="_7Temtf7mEeeV2Jh1iG0BaA" target="_7Tems_7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//Link/node"/>
+            </edges>
+            <edges xmi:id="_7Temuf7mEeeV2Jh1iG0BaA" source="_7Tems_7mEeeV2Jh1iG0BaA" target="_7Temtf7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//Node/link"/>
+            </edges>
+            <edges xmi:id="_7TemvP7mEeeV2Jh1iG0BaA" source="_7Temtf7mEeeV2Jh1iG0BaA" target="_7Temuv7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//Link/node"/>
+            </edges>
+            <edges xmi:id="_7Temvf7mEeeV2Jh1iG0BaA" source="_7Temuv7mEeeV2Jh1iG0BaA" target="_7Temtf7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//Node/link"/>
+            </edges>
+            <edges xmi:id="_7qjC4P7mEeeV2Jh1iG0BaA" source="_7Temuv7mEeeV2Jh1iG0BaA" target="_7Td_oP7mEeeV2Jh1iG0BaA">
+              <type href="wsn.ecore#//Node/link"/>
+            </edges>
+          </conclusion>
+          <mappings xmi:id="_7TemtP7mEeeV2Jh1iG0BaA" origin="_1rd1UP7mEeeV2Jh1iG0BaA" image="_7Tems_7mEeeV2Jh1iG0BaA"/>
+          <mappings xmi:id="_7Temt_7mEeeV2Jh1iG0BaA" origin="_2n950P7mEeeV2Jh1iG0BaA" image="_7Temtf7mEeeV2Jh1iG0BaA"/>
+          <mappings xmi:id="_7Temu_7mEeeV2Jh1iG0BaA" origin="_2LziQP7mEeeV2Jh1iG0BaA" image="_7Temuv7mEeeV2Jh1iG0BaA"/>
+        </child>
+      </formula>
+    </lhs>
+    <rhs xmi:id="_zSwRgP7mEeeV2Jh1iG0BaA" name="Rhs">
+      <nodes xmi:id="_1rd1Uf7mEeeV2Jh1iG0BaA" incoming="_3xyBkf7mEeeV2Jh1iG0BaA" outgoing="_3nNJQf7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2LziQf7mEeeV2Jh1iG0BaA" incoming="_3-uRYf7mEeeV2Jh1iG0BaA" outgoing="_4LC2If7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2n950f7mEeeV2Jh1iG0BaA" incoming="_3nNJQf7mEeeV2Jh1iG0BaA _4LC2If7mEeeV2Jh1iG0BaA" outgoing="_3xyBkf7mEeeV2Jh1iG0BaA _3-uRYf7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//UnderlayLink"/>
+        <attributes xmi:id="_4st_0f7mEeeV2Jh1iG0BaA" value="0">
+          <type href="wsn.ecore#//UnderlayLink/classification"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_3nNJQf7mEeeV2Jh1iG0BaA" source="_1rd1Uf7mEeeV2Jh1iG0BaA" target="_2n950f7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+      <edges xmi:id="_3xyBkf7mEeeV2Jh1iG0BaA" source="_2n950f7mEeeV2Jh1iG0BaA" target="_1rd1Uf7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_3-uRYf7mEeeV2Jh1iG0BaA" source="_2n950f7mEeeV2Jh1iG0BaA" target="_2LziQf7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Link/node"/>
+      </edges>
+      <edges xmi:id="_4LC2If7mEeeV2Jh1iG0BaA" source="_2LziQf7mEeeV2Jh1iG0BaA" target="_2n950f7mEeeV2Jh1iG0BaA">
+        <type href="wsn.ecore#//Node/link"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1recYP7mEeeV2Jh1iG0BaA" origin="_1rd1UP7mEeeV2Jh1iG0BaA" image="_1rd1Uf7mEeeV2Jh1iG0BaA"/>
+    <mappings xmi:id="_2LziQv7mEeeV2Jh1iG0BaA" origin="_2LziQP7mEeeV2Jh1iG0BaA" image="_2LziQf7mEeeV2Jh1iG0BaA"/>
+    <mappings xmi:id="_2n-g4P7mEeeV2Jh1iG0BaA" origin="_2n950P7mEeeV2Jh1iG0BaA" image="_2n950f7mEeeV2Jh1iG0BaA"/>
+  </units>
+  <units xsi:type="henshin:PriorityUnit" xmi:id="__5oScP7mEeeV2Jh1iG0BaA" name="controlUnderlayNetwork" subUnits="_UOxN8O2AEeeYnbaygk-hsg _m-iCYPDmEeeOcI6JMyP8oA _zSnuoP7mEeeV2Jh1iG0BaA"/>
+  <units xsi:type="henshin:LoopUnit" xmi:id="_KgPEwP7nEeeV2Jh1iG0BaA" name="loopControlUnderlayNetwork" subUnit="__5oScP7mEeeV2Jh1iG0BaA"/>
 </henshin:Module>
