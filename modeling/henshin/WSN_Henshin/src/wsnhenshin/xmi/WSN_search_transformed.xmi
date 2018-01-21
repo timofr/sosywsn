@@ -5,9 +5,10 @@
   <node link="//@underlaynetwork/@underlaylink.1 //@underlaynetwork/@underlaylink.2" id="3" explored="true"/>
   <node link="//@underlaynetwork/@underlaylink.3 //@underlaynetwork/@underlaylink.4" id="4" explored="true"/>
   <node link="//@underlaynetwork/@underlaylink.4 //@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.6" id="5" explored="true"/>
-  <node link="//@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.7" id="6" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.7 //@underlaynetwork/@underlaylink.8" id="6" explored="true"/>
   <node link="//@underlaynetwork/@underlaylink.6 //@underlaynetwork/@underlaylink.7" id="7" explored="true"/>
-  <node id="8"/>
+  <node link="//@underlaynetwork/@underlaylink.8" id="8" explored="true"/>
+  <node id="9"/>
   <underlaynetwork>
     <underlaylink node="//@node.0 //@node.1" id="12"/>
     <underlaylink node="//@node.0 //@node.2" id="13"/>
@@ -17,6 +18,7 @@
     <underlaylink node="//@node.4 //@node.5" id="56"/>
     <underlaylink node="//@node.4 //@node.6" id="57"/>
     <underlaylink node="//@node.5 //@node.6" id="67"/>
+    <underlaylink node="//@node.5 //@node.7" id="68" classification="1"/>
   </underlaynetwork>
   <overlaynetwork/>
 </WirelessSensorNetwork:WirelessSensorNetwork>
