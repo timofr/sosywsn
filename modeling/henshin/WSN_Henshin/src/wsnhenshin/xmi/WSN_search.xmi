@@ -7,7 +7,7 @@
     xsi:schemaLocation="www.wirelesssensornetwork.com ../model/wsn.ecore">
   <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.1"
       id="1"/>
-  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2 //@underlaynetwork/@underlaylink.3"
+  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2 //@underlaynetwork/@underlaylink.3 //@overlaynetwork/@overlaylink.0"
       id="2"/>
   <node link="//@underlaynetwork/@underlaylink.1 //@underlaynetwork/@underlaylink.2"
       id="3"/>
@@ -17,7 +17,7 @@
       id="5"/>
   <node link="//@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.7 //@underlaynetwork/@underlaylink.8"
       id="6"/>
-  <node link="//@underlaynetwork/@underlaylink.6 //@underlaynetwork/@underlaylink.7"
+  <node link="//@underlaynetwork/@underlaylink.6 //@underlaynetwork/@underlaylink.7 //@overlaynetwork/@overlaylink.0"
       id="7"/>
   <node link="//@underlaynetwork/@underlaylink.8"
       id="8"/>
@@ -52,5 +52,10 @@
         id="68"
         classification="1"/>
   </underlaynetwork>
-  <overlaynetwork/>
+  <overlaynetwork
+      connection="true">
+    <overlaylink
+        node="//@node.1 //@node.6"
+        id="27"/>
+  </overlaynetwork>
 </WirelessSensorNetwork:WirelessSensorNetwork>
