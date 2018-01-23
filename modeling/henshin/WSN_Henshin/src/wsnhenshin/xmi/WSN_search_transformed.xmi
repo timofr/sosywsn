@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <WirelessSensorNetwork:WirelessSensorNetwork xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WirelessSensorNetwork="www.wirelesssensornetwork.com" xsi:schemaLocation="www.wirelesssensornetwork.com ../model/wsn.ecore">
-  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.1" id="1"/>
-  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2 //@underlaynetwork/@underlaylink.3 //@overlaynetwork/@overlaylink.0" id="2"/>
-  <node link="//@underlaynetwork/@underlaylink.1 //@underlaynetwork/@underlaylink.2" id="3"/>
-  <node link="//@underlaynetwork/@underlaylink.3 //@underlaynetwork/@underlaylink.4" id="4"/>
-  <node link="//@underlaynetwork/@underlaylink.4 //@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.6" id="5"/>
-  <node link="//@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.7 //@underlaynetwork/@underlaylink.8" id="6"/>
-  <node link="//@underlaynetwork/@underlaylink.6 //@underlaynetwork/@underlaylink.7 //@overlaynetwork/@overlaylink.0" id="7"/>
-  <node link="//@underlaynetwork/@underlaylink.8" id="8"/>
+  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.1 //@overlaynetwork/@overlaylink.1" id="1" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2 //@underlaynetwork/@underlaylink.3 //@overlaynetwork/@overlaylink.0" id="2" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.1 //@underlaynetwork/@underlaylink.2" id="3" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.3 //@underlaynetwork/@underlaylink.4" id="4" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.4 //@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.6" id="5" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.5 //@underlaynetwork/@underlaylink.7 //@underlaynetwork/@underlaylink.8" id="6" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.6 //@underlaynetwork/@underlaylink.7 //@overlaynetwork/@overlaylink.0" id="7" explored="true"/>
+  <node link="//@underlaynetwork/@underlaylink.8 //@overlaynetwork/@overlaylink.1" id="8" explored="true"/>
   <node id="9"/>
   <underlaynetwork>
     <underlaylink node="//@node.0 //@node.1" id="12"/>
@@ -18,9 +18,10 @@
     <underlaylink node="//@node.4 //@node.5" id="56"/>
     <underlaylink node="//@node.4 //@node.6" id="57"/>
     <underlaylink node="//@node.5 //@node.6" id="67"/>
-    <underlaylink node="//@node.5 //@node.7" id="68" classification="1"/>
+    <underlaylink node="//@node.5 //@node.7" id="68"/>
   </underlaynetwork>
-  <overlaynetwork>
+  <overlaynetwork connection="true" singleConnectionCheck="true">
     <overlaylink node="//@node.1 //@node.6" id="27"/>
+    <overlaylink node="//@node.0 //@node.7" id="18"/>
   </overlaynetwork>
 </WirelessSensorNetwork:WirelessSensorNetwork>

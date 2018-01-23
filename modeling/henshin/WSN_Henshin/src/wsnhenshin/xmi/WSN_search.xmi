@@ -5,7 +5,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:WirelessSensorNetwork="www.wirelesssensornetwork.com"
     xsi:schemaLocation="www.wirelesssensornetwork.com ../model/wsn.ecore">
-  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.1"
+  <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.1 //@overlaynetwork/@overlaylink.1"
       id="1"/>
   <node link="//@underlaynetwork/@underlaylink.0 //@underlaynetwork/@underlaylink.2 //@underlaynetwork/@underlaylink.3 //@overlaynetwork/@overlaylink.0"
       id="2"/>
@@ -19,7 +19,7 @@
       id="6"/>
   <node link="//@underlaynetwork/@underlaylink.6 //@underlaynetwork/@underlaylink.7 //@overlaynetwork/@overlaylink.0"
       id="7"/>
-  <node link="//@underlaynetwork/@underlaylink.8"
+  <node link="//@underlaynetwork/@underlaylink.8 //@overlaynetwork/@overlaylink.1"
       id="8"/>
   <node id="9"/>
   <underlaynetwork>
@@ -57,5 +57,8 @@
     <overlaylink
         node="//@node.1 //@node.6"
         id="27"/>
+    <overlaylink
+        node="//@node.0 //@node.7"
+        id="18"/>
   </overlaynetwork>
 </WirelessSensorNetwork:WirelessSensorNetwork>

@@ -7,7 +7,7 @@
   <underlaynetwork>
     <underlaylink node="//@node.0 //@node.1" id="12"/>
     <underlaylink node="//@node.0 //@node.2" id="13"/>
-    <underlaylink node="//@node.1 //@node.2" id="23" classification="1" classif="INACTIVE"/>
+    <underlaylink node="//@node.1 //@node.2" id="23" classification="1"/>
     <underlaylink node="//@node.1 //@node.3" id="24"/>
   </underlaynetwork>
   <overlaynetwork/>

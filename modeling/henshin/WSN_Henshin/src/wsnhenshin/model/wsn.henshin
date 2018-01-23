@@ -1409,7 +1409,7 @@
     <mappings xmi:id="_HRThEv7bEeeQA_JKuLO9ww" origin="_HRThEP7bEeeQA_JKuLO9ww" image="_HRThEf7bEeeQA_JKuLO9ww"/>
     <mappings xmi:id="_HroFkv7bEeeQA_JKuLO9ww" origin="_HroFkP7bEeeQA_JKuLO9ww" image="_HroFkf7bEeeQA_JKuLO9ww"/>
   </units>
-  <units xsi:type="henshin:SequentialUnit" xmi:id="_HlyG0P7cEeeQA_JKuLO9ww" name="startSearchAlgorithm" subUnits="__czmUPPfEeeEtvVmvLmJjg _rPMScP7gEeehArXz9ozErg">
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_HlyG0P7cEeeQA_JKuLO9ww" name="startSearchAlgorithm" subUnits="__czmUPPfEeeEtvVmvLmJjg _nIL3MP-YEeeaK4XkUNP0HA _dRqBgP-ZEeeaK4XkUNP0HA" strict="false" rollback="false">
     <parameters xmi:id="_KmVGsP7cEeeQA_JKuLO9ww" name="startId" kind="IN">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
@@ -1420,22 +1420,10 @@
     <parameterMappings xmi:id="_QRSeYf7cEeeQA_JKuLO9ww" source="_H2Q5sPPiEeeEtvVmvLmJjg" target="_KmVGsP7cEeeQA_JKuLO9ww"/>
     <parameterMappings xmi:id="_QRTFcP7cEeeQA_JKuLO9ww" source="_KmVGsf7cEeeQA_JKuLO9ww" target="_bX93YPPlEeeEtvVmvLmJjg"/>
     <parameterMappings xmi:id="_QRTFcf7cEeeQA_JKuLO9ww" source="_bX93YPPlEeeEtvVmvLmJjg" target="_KmVGsf7cEeeQA_JKuLO9ww"/>
-    <parameterMappings xmi:id="_4grWoP7gEeehArXz9ozErg" source="_KmVGsP7cEeeQA_JKuLO9ww" target="_xFbtEP7gEeehArXz9ozErg"/>
-    <parameterMappings xmi:id="_4grWof7gEeehArXz9ozErg" source="_xFbtEP7gEeehArXz9ozErg" target="_KmVGsP7cEeeQA_JKuLO9ww"/>
-    <parameterMappings xmi:id="_4grWov7gEeehArXz9ozErg" source="_KmVGsf7cEeeQA_JKuLO9ww" target="_xFbtEf7gEeehArXz9ozErg"/>
-    <parameterMappings xmi:id="_4grWo_7gEeehArXz9ozErg" source="_xFbtEf7gEeehArXz9ozErg" target="_KmVGsf7cEeeQA_JKuLO9ww"/>
-  </units>
-  <units xsi:type="henshin:PriorityUnit" xmi:id="_rPMScP7gEeehArXz9ozErg" name="checkActiveConnection" subUnits="_xYTD4P7OEeeQA_JKuLO9ww _sqlhIP7aEeeQA_JKuLO9ww">
-    <parameters xmi:id="_xFbtEP7gEeehArXz9ozErg" name="startId" kind="IN">
-      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    </parameters>
-    <parameters xmi:id="_xFbtEf7gEeehArXz9ozErg" name="endId" kind="IN">
-      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    </parameters>
-    <parameterMappings xmi:id="_0MRiMP7gEeehArXz9ozErg" source="_xFbtEP7gEeehArXz9ozErg" target="_2p6HcP7OEeeQA_JKuLO9ww"/>
-    <parameterMappings xmi:id="_0MRiMf7gEeehArXz9ozErg" source="_2p6HcP7OEeeQA_JKuLO9ww" target="_xFbtEP7gEeehArXz9ozErg"/>
-    <parameterMappings xmi:id="_0MRiMv7gEeehArXz9ozErg" source="_xFbtEf7gEeehArXz9ozErg" target="_y-3ZEf7OEeeQA_JKuLO9ww"/>
-    <parameterMappings xmi:id="_0MRiM_7gEeehArXz9ozErg" source="_y-3ZEf7OEeeQA_JKuLO9ww" target="_xFbtEf7gEeehArXz9ozErg"/>
+    <parameterMappings xmi:id="_saBHwP-ZEeeaK4XkUNP0HA" source="_KmVGsP7cEeeQA_JKuLO9ww" target="_r1NnAP-YEeeaK4XkUNP0HA"/>
+    <parameterMappings xmi:id="_saBHwf-ZEeeaK4XkUNP0HA" source="_r1NnAP-YEeeaK4XkUNP0HA" target="_KmVGsP7cEeeQA_JKuLO9ww"/>
+    <parameterMappings xmi:id="_saBHwv-ZEeeaK4XkUNP0HA" source="_KmVGsf7cEeeQA_JKuLO9ww" target="_r1NnAf-YEeeaK4XkUNP0HA"/>
+    <parameterMappings xmi:id="_saBHw_-ZEeeaK4XkUNP0HA" source="_r1NnAf-YEeeaK4XkUNP0HA" target="_KmVGsf7cEeeQA_JKuLO9ww"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_zSnuoP7mEeeV2Jh1iG0BaA" name="activateSingle">
     <lhs xmi:id="_zSvqcP7mEeeV2Jh1iG0BaA" name="Lhs">
@@ -1535,4 +1523,99 @@
   </units>
   <units xsi:type="henshin:PriorityUnit" xmi:id="__5oScP7mEeeV2Jh1iG0BaA" name="controlUnderlayNetwork" subUnits="_UOxN8O2AEeeYnbaygk-hsg _m-iCYPDmEeeOcI6JMyP8oA _zSnuoP7mEeeV2Jh1iG0BaA"/>
   <units xsi:type="henshin:LoopUnit" xmi:id="_KgPEwP7nEeeV2Jh1iG0BaA" name="loopControlUnderlayNetwork" subUnit="__5oScP7mEeeV2Jh1iG0BaA"/>
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_nIL3MP-YEeeaK4XkUNP0HA" name="checkActiveConnection" subUnits="_LSHSwP-ZEeeaK4XkUNP0HA _xYTD4P7OEeeQA_JKuLO9ww _9ggkEP-YEeeaK4XkUNP0HA">
+    <parameters xmi:id="_r1NnAP-YEeeaK4XkUNP0HA" name="startId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_r1NnAf-YEeeaK4XkUNP0HA" name="endId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameterMappings xmi:id="_ZcuXUP-ZEeeaK4XkUNP0HA" source="_r1NnAP-YEeeaK4XkUNP0HA" target="_2p6HcP7OEeeQA_JKuLO9ww"/>
+    <parameterMappings xmi:id="_ZcuXUf-ZEeeaK4XkUNP0HA" source="_2p6HcP7OEeeQA_JKuLO9ww" target="_r1NnAP-YEeeaK4XkUNP0HA"/>
+    <parameterMappings xmi:id="_ZcuXUv-ZEeeaK4XkUNP0HA" source="_r1NnAf-YEeeaK4XkUNP0HA" target="_y-3ZEf7OEeeQA_JKuLO9ww"/>
+    <parameterMappings xmi:id="_ZcuXU_-ZEeeaK4XkUNP0HA" source="_y-3ZEf7OEeeQA_JKuLO9ww" target="_r1NnAf-YEeeaK4XkUNP0HA"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_9ggkEP-YEeeaK4XkUNP0HA" name="setSingleConnectionTrue">
+    <parameters xmi:id="_4zXqEP-ZEeeaK4XkUNP0HA" name="c" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </parameters>
+    <lhs xmi:id="_9ghyMP-YEeeaK4XkUNP0HA" name="Lhs">
+      <nodes xmi:id="_CuUswP-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+        <attributes xmi:id="_DVFx0P-ZEeeaK4XkUNP0HA" value="c">
+          <type href="wsn.ecore#//OverlayNetwork/singleConnectionCheck"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_9ghyMf-YEeeaK4XkUNP0HA" name="Rhs">
+      <nodes xmi:id="_CuUswf-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+        <attributes xmi:id="_DVFx0f-ZEeeaK4XkUNP0HA" value="true">
+          <type href="wsn.ecore#//OverlayNetwork/singleConnectionCheck"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_CuVT0P-ZEeeaK4XkUNP0HA" origin="_CuUswP-ZEeeaK4XkUNP0HA" image="_CuUswf-ZEeeaK4XkUNP0HA"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_Hb_80P-ZEeeaK4XkUNP0HA" name="checkSingleConnection">
+    <lhs xmi:id="_HcBK8P-ZEeeaK4XkUNP0HA" name="Lhs">
+      <nodes xmi:id="_JGLmsP-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+        <attributes xmi:id="_JpXzUP-ZEeeaK4XkUNP0HA" value="true">
+          <type href="wsn.ecore#//OverlayNetwork/singleConnectionCheck"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_HcBK8f-ZEeeaK4XkUNP0HA" name="Rhs">
+      <nodes xmi:id="_JGLmsf-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+        <attributes xmi:id="_JpXzUf-ZEeeaK4XkUNP0HA" value="true">
+          <type href="wsn.ecore#//OverlayNetwork/singleConnectionCheck"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_JGLmsv-ZEeeaK4XkUNP0HA" origin="_JGLmsP-ZEeeaK4XkUNP0HA" image="_JGLmsf-ZEeeaK4XkUNP0HA"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_LSHSwP-ZEeeaK4XkUNP0HA" name="setSingleConnectionFalse">
+    <parameters xmi:id="_2QAVcP-ZEeeaK4XkUNP0HA" name="c" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </parameters>
+    <lhs xmi:id="_LSIg4P-ZEeeaK4XkUNP0HA" name="Lhs">
+      <nodes xmi:id="_M0Gp8P-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+        <attributes xmi:id="_NLyKIP-ZEeeaK4XkUNP0HA" value="c">
+          <type href="wsn.ecore#//OverlayNetwork/singleConnectionCheck"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_LSIg4f-ZEeeaK4XkUNP0HA" name="Rhs">
+      <nodes xmi:id="_M0HRAP-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//OverlayNetwork"/>
+        <attributes xmi:id="_NLyKIf-ZEeeaK4XkUNP0HA" value="false">
+          <type href="wsn.ecore#//OverlayNetwork/singleConnectionCheck"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_M0HRAf-ZEeeaK4XkUNP0HA" origin="_M0Gp8P-ZEeeaK4XkUNP0HA" image="_M0HRAP-ZEeeaK4XkUNP0HA"/>
+  </units>
+  <units xsi:type="henshin:ConditionalUnit" xmi:id="_dRqBgP-ZEeeaK4XkUNP0HA" name="connectionChecker" if="_Hb_80P-ZEeeaK4XkUNP0HA" then="_m_3zQP-ZEeeaK4XkUNP0HA" else="_sqlhIP7aEeeQA_JKuLO9ww"/>
+  <units xsi:type="henshin:Rule" xmi:id="_m_3zQP-ZEeeaK4XkUNP0HA" name="doNothing">
+    <lhs xmi:id="_m_5BYP-ZEeeaK4XkUNP0HA" name="Lhs">
+      <nodes xmi:id="_oiDXsP-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//WirelessSensorNetwork"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_m_5BYf-ZEeeaK4XkUNP0HA" name="Rhs">
+      <nodes xmi:id="_oiDXsf-ZEeeaK4XkUNP0HA">
+        <type href="wsn.ecore#//WirelessSensorNetwork"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_oiDXsv-ZEeeaK4XkUNP0HA" origin="_oiDXsP-ZEeeaK4XkUNP0HA" image="_oiDXsf-ZEeeaK4XkUNP0HA"/>
+  </units>
+  <units xsi:type="henshin:IteratedUnit" xmi:id="_tcjCUP_GEeeblsxTLpNxWA" name="iterativControlUnderlayNetwork" subUnit="__5oScP7mEeeV2Jh1iG0BaA" iterations="n">
+    <parameters xmi:id="_wn6yIP_GEeeblsxTLpNxWA" name="n" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+  </units>
+  <units xsi:type="henshin:ConditionalUnit" xmi:id="_zkXEIACBEeiePINJDiKyoA" if="_UOxN8O2AEeeYnbaygk-hsg" then="_dXL_cO2KEeeYnbaygk-hsg" else="_r-E64O2LEeeYnbaygk-hsg"/>
 </henshin:Module>
