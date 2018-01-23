@@ -1409,7 +1409,7 @@
     <mappings xmi:id="_HRThEv7bEeeQA_JKuLO9ww" origin="_HRThEP7bEeeQA_JKuLO9ww" image="_HRThEf7bEeeQA_JKuLO9ww"/>
     <mappings xmi:id="_HroFkv7bEeeQA_JKuLO9ww" origin="_HroFkP7bEeeQA_JKuLO9ww" image="_HroFkf7bEeeQA_JKuLO9ww"/>
   </units>
-  <units xsi:type="henshin:SequentialUnit" xmi:id="_HlyG0P7cEeeQA_JKuLO9ww" name="startSearchAlgorithm" subUnits="__czmUPPfEeeEtvVmvLmJjg _nIL3MP-YEeeaK4XkUNP0HA _dRqBgP-ZEeeaK4XkUNP0HA" strict="false" rollback="false">
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_HlyG0P7cEeeQA_JKuLO9ww" name="startSearchAlgorithm" subUnits="__czmUPPfEeeEtvVmvLmJjg _LSHSwP-ZEeeaK4XkUNP0HA _zkXEIACBEeiePINJDiKyoA _dRqBgP-ZEeeaK4XkUNP0HA" strict="false" rollback="false">
     <parameters xmi:id="_KmVGsP7cEeeQA_JKuLO9ww" name="startId" kind="IN">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
@@ -1424,6 +1424,10 @@
     <parameterMappings xmi:id="_saBHwf-ZEeeaK4XkUNP0HA" source="_r1NnAP-YEeeaK4XkUNP0HA" target="_KmVGsP7cEeeQA_JKuLO9ww"/>
     <parameterMappings xmi:id="_saBHwv-ZEeeaK4XkUNP0HA" source="_KmVGsf7cEeeQA_JKuLO9ww" target="_r1NnAf-YEeeaK4XkUNP0HA"/>
     <parameterMappings xmi:id="_saBHw_-ZEeeaK4XkUNP0HA" source="_r1NnAf-YEeeaK4XkUNP0HA" target="_KmVGsf7cEeeQA_JKuLO9ww"/>
+    <parameterMappings xmi:id="_QTHuoACCEeiePINJDiKyoA" source="_KmVGsP7cEeeQA_JKuLO9ww" target="_DnkpEACCEeiePINJDiKyoA"/>
+    <parameterMappings xmi:id="_QTHuoQCCEeiePINJDiKyoA" source="_DnkpEACCEeiePINJDiKyoA" target="_KmVGsP7cEeeQA_JKuLO9ww"/>
+    <parameterMappings xmi:id="_QTHuogCCEeiePINJDiKyoA" source="_KmVGsf7cEeeQA_JKuLO9ww" target="_DnlQIACCEeiePINJDiKyoA"/>
+    <parameterMappings xmi:id="_QTHuowCCEeiePINJDiKyoA" source="_DnlQIACCEeiePINJDiKyoA" target="_KmVGsf7cEeeQA_JKuLO9ww"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_zSnuoP7mEeeV2Jh1iG0BaA" name="activateSingle">
     <lhs xmi:id="_zSvqcP7mEeeV2Jh1iG0BaA" name="Lhs">
@@ -1523,7 +1527,7 @@
   </units>
   <units xsi:type="henshin:PriorityUnit" xmi:id="__5oScP7mEeeV2Jh1iG0BaA" name="controlUnderlayNetwork" subUnits="_UOxN8O2AEeeYnbaygk-hsg _m-iCYPDmEeeOcI6JMyP8oA _zSnuoP7mEeeV2Jh1iG0BaA"/>
   <units xsi:type="henshin:LoopUnit" xmi:id="_KgPEwP7nEeeV2Jh1iG0BaA" name="loopControlUnderlayNetwork" subUnit="__5oScP7mEeeV2Jh1iG0BaA"/>
-  <units xsi:type="henshin:SequentialUnit" xmi:id="_nIL3MP-YEeeaK4XkUNP0HA" name="checkActiveConnection" subUnits="_LSHSwP-ZEeeaK4XkUNP0HA _xYTD4P7OEeeQA_JKuLO9ww _9ggkEP-YEeeaK4XkUNP0HA">
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_nIL3MP-YEeeaK4XkUNP0HA" name="checkActiveConnectionT" subUnits="_LSHSwP-ZEeeaK4XkUNP0HA _xYTD4P7OEeeQA_JKuLO9ww _9ggkEP-YEeeaK4XkUNP0HA">
     <parameters xmi:id="_r1NnAP-YEeeaK4XkUNP0HA" name="startId" kind="IN">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
@@ -1617,5 +1621,16 @@
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
   </units>
-  <units xsi:type="henshin:ConditionalUnit" xmi:id="_zkXEIACBEeiePINJDiKyoA" if="_UOxN8O2AEeeYnbaygk-hsg" then="_dXL_cO2KEeeYnbaygk-hsg" else="_r-E64O2LEeeYnbaygk-hsg"/>
+  <units xsi:type="henshin:ConditionalUnit" xmi:id="_zkXEIACBEeiePINJDiKyoA" name="checkActiveConnection" description="" if="_xYTD4P7OEeeQA_JKuLO9ww" then="_9ggkEP-YEeeaK4XkUNP0HA" else="_m_3zQP-ZEeeaK4XkUNP0HA">
+    <parameters xmi:id="_DnkpEACCEeiePINJDiKyoA" name="startId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_DnlQIACCEeiePINJDiKyoA" name="endId" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameterMappings xmi:id="_Fby_wACCEeiePINJDiKyoA" source="_DnkpEACCEeiePINJDiKyoA" target="_2p6HcP7OEeeQA_JKuLO9ww"/>
+    <parameterMappings xmi:id="_Fby_wQCCEeiePINJDiKyoA" source="_2p6HcP7OEeeQA_JKuLO9ww" target="_DnkpEACCEeiePINJDiKyoA"/>
+    <parameterMappings xmi:id="_Fby_wgCCEeiePINJDiKyoA" source="_DnlQIACCEeiePINJDiKyoA" target="_y-3ZEf7OEeeQA_JKuLO9ww"/>
+    <parameterMappings xmi:id="_Fby_wwCCEeiePINJDiKyoA" source="_y-3ZEf7OEeeQA_JKuLO9ww" target="_DnlQIACCEeiePINJDiKyoA"/>
+  </units>
 </henshin:Module>
