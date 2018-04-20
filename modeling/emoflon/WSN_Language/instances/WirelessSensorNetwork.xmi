@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WSN_Language:WirelessSensorNetwork
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:WSN_Language="platform:/plugin/WSN_Language/model/WSN_Language.ecore">
+  <nodes link="//@underlayNetwork/@underlyLinks.0 //@underlayNetwork/@underlyLinks.1"
+      id="1"/>
+  <nodes link="//@underlayNetwork/@underlyLinks.0 //@underlayNetwork/@underlyLinks.2"
+      id="2"/>
+  <nodes link="//@underlayNetwork/@underlyLinks.1 //@underlayNetwork/@underlyLinks.2"
+      id="3"/>
+  <underlayNetwork>
+    <underlyLinks
+        node="//@nodes.0 //@nodes.1"
+        id="12"/>
+    <underlyLinks
+        node="//@nodes.0 //@nodes.2"
+        id="13"/>
+    <underlyLinks
+        node="//@nodes.1 //@nodes.2"
+        id="23"
+        classification="UNCLASSIFIED"/>
+  </underlayNetwork>
+  <overlayNetworks/>
+</WSN_Language:WirelessSensorNetwork>
